@@ -1,0 +1,5584 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "aeb16423-5099-42dd-876d-1f604d278dc0")
+	(paper "A4")
+	(title_block
+		(date "2026-04-07")
+		(rev "v1.0")
+		(company "Metalektro Méréstechnika Kft.")
+		(comment 1 "Designer: Janos Kajari")
+		(comment 2 "Frontend Add-On Panel 2")
+		(comment 3 "16 Channel Data Acquisition (DAQ) Board")
+	)
+	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Oscillator:ASE-xxxMHz"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Y"
+				(at -5.08 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "ASE-xxxMHz"
+				(at 1.27 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm"
+				(at 17.78 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.abracon.com/Oscillators/ASV.pdf"
+				(at -2.54 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "3.3V CMOS SMD Crystal Clock Oscillator, Abracon"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "3.3V CMOS SMD Crystal Clock Oscillator"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Oscillator*SMD*Abracon*ASE*3.2x2.5mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ASE-xxxMHz_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -0.762) (xy -1.016 -0.762) (xy -1.016 0.762) (xy -0.508 0.762) (xy -0.508 -0.762) (xy 0 -0.762)
+						(xy 0 0.762) (xy 0.508 0.762) (xy 0.508 -0.762) (xy 0.762 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ASE-xxxMHz_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "Vdd"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GNDA"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GNDA"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GNDA_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDA_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VCC"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "8 ch. Delta-Sigma ADC"
+		(exclude_from_sim no)
+		(at 149.86 18.288 0)
+		(effects
+			(font
+				(size 4.064 4.064)
+				(thickness 0.3048)
+				(bold yes)
+			)
+		)
+		(uuid "85418e4b-32ac-4482-9bd0-baa13fd68054")
+	)
+	(text "Clock Generator @4.096 MHz"
+		(exclude_from_sim no)
+		(at 196.85 127.508 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3048)
+				(bold yes)
+			)
+		)
+		(uuid "c0294a20-6bc5-4b48-8e9d-b8d01a7be971")
+	)
+	(junction
+		(at 196.85 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "771d468f-e906-44fd-875d-66f5767c5ef0")
+	)
+	(no_connect
+		(at 113.03 91.44)
+		(uuid "01bd1f2e-e75b-4c7e-be35-4ab68dda0245")
+	)
+	(no_connect
+		(at 113.03 135.89)
+		(uuid "36f67117-7b3e-4a70-a4ac-02c933c4b271")
+	)
+	(no_connect
+		(at 113.03 176.53)
+		(uuid "83984d6f-e693-45e4-97bc-ff1357fc2c8a")
+	)
+	(no_connect
+		(at 66.04 91.44)
+		(uuid "aefe609b-2352-4e9c-91e3-4863e4096515")
+	)
+	(no_connect
+		(at 66.04 135.89)
+		(uuid "b0402fb7-cd47-4ba5-b83b-052f0a729bb9")
+	)
+	(no_connect
+		(at 113.03 49.53)
+		(uuid "b9e5d97c-6c78-4974-8989-d37f24859a20")
+	)
+	(no_connect
+		(at 66.04 176.53)
+		(uuid "daf46cbb-f027-43be-9652-47769024278a")
+	)
+	(bus_entry
+		(at 245.11 132.08)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1005ac4f-ab51-4473-89a3-f9524e866adb")
+	)
+	(bus_entry
+		(at 245.11 139.7)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18fc138b-971b-4788-95cf-e18ac81c3c39")
+	)
+	(bus_entry
+		(at 245.11 144.78)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46c0f9b8-6a56-4167-aaed-da8adf8e6d32")
+	)
+	(bus_entry
+		(at 245.11 154.94)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dc21a04-2828-4456-886b-2d70fccca9e6")
+	)
+	(bus_entry
+		(at 245.11 149.86)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95ca3d50-4110-46a4-85c6-741b05d0311a")
+	)
+	(bus_entry
+		(at 245.11 129.54)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a96b6f91-55fd-401b-bcef-8d254aa930ab")
+	)
+	(bus_entry
+		(at 245.11 152.4)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cccd7196-8a66-49ca-89cd-b6a599ff0c9c")
+	)
+	(bus_entry
+		(at 245.11 147.32)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7121fd7-7286-4397-a0cc-28cfecaa03fd")
+	)
+	(bus_entry
+		(at 245.11 137.16)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f00aaace-f9c1-4a34-b53c-d04f422c781b")
+	)
+	(bus_entry
+		(at 245.11 142.24)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4313ca2-46ce-4bc3-9d59-7c54cd02fde3")
+	)
+	(bus_entry
+		(at 245.11 134.62)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5a8202b-e0ef-4c2f-8762-6210e45c220f")
+	)
+	(wire
+		(pts
+			(xy 48.26 73.66) (xy 54.61 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00721e69-ecf3-4f1d-ae11-14b295f98fc0")
+	)
+	(wire
+		(pts
+			(xy 54.61 118.11) (xy 54.61 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01598fab-af9a-4ff0-b5b8-0cd0de10f9db")
+	)
+	(wire
+		(pts
+			(xy 95.25 91.44) (xy 113.03 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01cb78c8-0283-44fd-bc2f-83b6721e7f26")
+	)
+	(wire
+		(pts
+			(xy 48.26 82.55) (xy 66.04 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "050b1b6a-8150-44ba-8346-bbd36b19cb9e")
+	)
+	(wire
+		(pts
+			(xy 48.26 87.63) (xy 66.04 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05cb3acd-e3ba-426c-901f-ef9b5807b42f")
+	)
+	(wire
+		(pts
+			(xy 106.68 76.2) (xy 95.25 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08b1d05d-e2ba-45bf-a8cd-38db058236de")
+	)
+	(wire
+		(pts
+			(xy 48.26 135.89) (xy 66.04 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09070a91-8d72-425d-b08f-be6ac1ecfbd5")
+	)
+	(wire
+		(pts
+			(xy 95.25 127) (xy 113.03 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cec7eb2-bf35-43a5-b239-336bdfe31fbc")
+	)
+	(wire
+		(pts
+			(xy 95.25 85.09) (xy 113.03 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1009de53-29d7-4315-a499-9f8fc812e851")
+	)
+	(wire
+		(pts
+			(xy 95.25 135.89) (xy 113.03 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11318239-0700-4739-89b1-ddebe1ffebd8")
+	)
+	(wire
+		(pts
+			(xy 95.25 38.1) (xy 113.03 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "122abb09-2e5b-412b-a74a-65e58fe61a2b")
+	)
+	(wire
+		(pts
+			(xy 95.25 158.75) (xy 101.6 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1319e2e7-0f97-4f7d-86fa-c595c564f6fe")
+	)
+	(wire
+		(pts
+			(xy 171.45 142.24) (xy 182.88 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1444621f-9f6d-4021-96ce-f3d449b4a249")
+	)
+	(wire
+		(pts
+			(xy 48.26 38.1) (xy 66.04 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1641cff8-17fb-4d75-919f-eca6ad704687")
+	)
+	(wire
+		(pts
+			(xy 207.01 134.62) (xy 196.85 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "178f7425-9626-4455-aa7b-fbb6ab73e000")
+	)
+	(wire
+		(pts
+			(xy 48.26 129.54) (xy 66.04 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18a74d3a-6b43-4efc-8940-381077c52a74")
+	)
+	(wire
+		(pts
+			(xy 48.26 165.1) (xy 66.04 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1de65f59-b217-4249-97b0-868a3143f16e")
+	)
+	(wire
+		(pts
+			(xy 59.69 113.03) (xy 59.69 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f00bb02-9737-43d5-b606-6ea90dd4ad24")
+	)
+	(wire
+		(pts
+			(xy 95.25 45.72) (xy 113.03 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f2b5d59-f86d-4482-b672-5d86a3045401")
+	)
+	(wire
+		(pts
+			(xy 204.47 142.24) (xy 207.01 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21a50bee-25db-46a2-b443-963d49d1e597")
+	)
+	(bus
+		(pts
+			(xy 247.65 149.86) (xy 247.65 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2588877e-ee62-4b45-a2d3-5e7e33ee8c7d")
+	)
+	(wire
+		(pts
+			(xy 95.25 52.07) (xy 113.03 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e0796b4-e9f4-4ea9-a656-21f2f9029a8c")
+	)
+	(wire
+		(pts
+			(xy 95.25 73.66) (xy 101.6 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f459cb9-7f0f-40b5-ab9f-cd548e0a5256")
+	)
+	(wire
+		(pts
+			(xy 106.68 113.03) (xy 106.68 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f602e6c-5a8b-4d18-b828-182d5d285906")
+	)
+	(wire
+		(pts
+			(xy 95.25 43.18) (xy 113.03 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "355ddfcb-1d74-447a-a84d-551ece5f855e")
+	)
+	(wire
+		(pts
+			(xy 59.69 153.67) (xy 59.69 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "362952ef-5d03-4003-9fcc-65ac86a110f0")
+	)
+	(wire
+		(pts
+			(xy 187.96 142.24) (xy 189.23 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cb48447-48c6-4fef-b567-dc2d1c5d4e11")
+	)
+	(wire
+		(pts
+			(xy 48.26 43.18) (xy 66.04 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dfc9509-f7e2-4cf6-9f6e-f1e7866816e5")
+	)
+	(wire
+		(pts
+			(xy 95.25 40.64) (xy 113.03 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "459c09f5-1e5e-4890-a066-4a078c0a8bdd")
+	)
+	(wire
+		(pts
+			(xy 101.6 118.11) (xy 101.6 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "467ba116-ffb5-45d3-a1b7-118d76df2ab6")
+	)
+	(wire
+		(pts
+			(xy 48.26 158.75) (xy 54.61 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46fcf982-8ebe-4359-a732-3a4d9c27ff09")
+	)
+	(wire
+		(pts
+			(xy 227.33 144.78) (xy 245.11 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48018de8-e9e6-448a-bb31-721ae1fb2b07")
+	)
+	(wire
+		(pts
+			(xy 227.33 154.94) (xy 245.11 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48b5fd7e-8971-4ac4-88b7-444c1e8735c1")
+	)
+	(wire
+		(pts
+			(xy 95.25 80.01) (xy 113.03 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5115ac04-0a5f-4251-9ce4-538ff53bba73")
+	)
+	(wire
+		(pts
+			(xy 95.25 93.98) (xy 113.03 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56ab148a-15ef-4a04-b7df-cd3c6223c85c")
+	)
+	(wire
+		(pts
+			(xy 48.26 170.18) (xy 66.04 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56baa6f5-e037-4d14-9f4a-61ce53755f37")
+	)
+	(wire
+		(pts
+			(xy 95.25 82.55) (xy 113.03 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b1b6001-086d-4ee0-b3c3-d94e6a187493")
+	)
+	(wire
+		(pts
+			(xy 95.25 172.72) (xy 113.03 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65ae4a9f-6ff4-45de-b7de-4ba8e48ba334")
+	)
+	(wire
+		(pts
+			(xy 95.25 124.46) (xy 113.03 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "677e047d-ddc5-42fe-a181-621e10175ad4")
+	)
+	(wire
+		(pts
+			(xy 54.61 158.75) (xy 54.61 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68458cd5-930b-4c38-bdd0-a39399bcbbbb")
+	)
+	(wire
+		(pts
+			(xy 95.25 132.08) (xy 113.03 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a184567-9592-495b-8bbb-920cbf0aef0a")
+	)
+	(wire
+		(pts
+			(xy 95.25 179.07) (xy 113.03 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a304051-0e6e-40a5-9bff-a6d01475ee41")
+	)
+	(wire
+		(pts
+			(xy 59.69 120.65) (xy 48.26 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bfcd4e1-fb42-45fb-8e2b-f9246e1764a8")
+	)
+	(wire
+		(pts
+			(xy 101.6 73.66) (xy 101.6 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72543490-fa19-40cb-ae89-bffeba7bada3")
+	)
+	(wire
+		(pts
+			(xy 227.33 149.86) (xy 245.11 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73d1b906-5bff-413c-86a3-15ec35c59dca")
+	)
+	(wire
+		(pts
+			(xy 48.26 52.07) (xy 66.04 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76495085-5cb8-4337-9438-cf7b8fccc9ea")
+	)
+	(wire
+		(pts
+			(xy 48.26 124.46) (xy 66.04 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "769da1fc-8202-4812-aa00-d4831954c5b7")
+	)
+	(wire
+		(pts
+			(xy 256.54 30.48) (xy 274.32 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d87a1b9-e647-4dba-997f-f72b6a6c510e")
+	)
+	(wire
+		(pts
+			(xy 95.25 129.54) (xy 113.03 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f612483-d1f8-4a07-af81-1a416d226ecd")
+	)
+	(wire
+		(pts
+			(xy 95.25 170.18) (xy 113.03 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80ebd1f9-74ae-4257-a9cb-eef76638c44c")
+	)
+	(wire
+		(pts
+			(xy 54.61 31.75) (xy 54.61 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82960080-fd29-4bfa-abe1-055221ccc8b0")
+	)
+	(wire
+		(pts
+			(xy 274.32 30.48) (xy 274.32 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85e445be-6743-453e-88bf-e23c517717a0")
+	)
+	(wire
+		(pts
+			(xy 95.25 49.53) (xy 113.03 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85efa556-0f31-40e3-bc70-86a91d9c57a5")
+	)
+	(wire
+		(pts
+			(xy 48.26 179.07) (xy 66.04 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "883d2fbc-dc75-4924-85f6-c6e54dfc7772")
+	)
+	(wire
+		(pts
+			(xy 227.33 129.54) (xy 245.11 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88b3f3a8-a831-4dd9-b1fd-e9d0adadb9f2")
+	)
+	(wire
+		(pts
+			(xy 106.68 26.67) (xy 106.68 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89d8c493-0f1c-46aa-8b0b-8dcb7fe0202a")
+	)
+	(wire
+		(pts
+			(xy 266.7 25.4) (xy 266.7 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89ebc3f6-7ae6-4092-8df7-09d2f2c57b2a")
+	)
+	(wire
+		(pts
+			(xy 59.69 26.67) (xy 59.69 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e21f4e9-da87-4dc5-9cc9-a0b0ce8724e5")
+	)
+	(bus
+		(pts
+			(xy 247.65 152.4) (xy 247.65 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e53e0a4-23ef-435d-9623-78c4a75d709d")
+	)
+	(wire
+		(pts
+			(xy 227.33 160.02) (xy 274.32 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e98ca2f-0fb1-43dc-a47e-9d079197aada")
+	)
+	(wire
+		(pts
+			(xy 227.33 142.24) (xy 245.11 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90e6770a-75a0-404e-b641-48c3c944382f")
+	)
+	(wire
+		(pts
+			(xy 48.26 127) (xy 66.04 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "978408a9-7420-4750-9891-abf8cdc3d6e1")
+	)
+	(wire
+		(pts
+			(xy 95.25 167.64) (xy 113.03 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9af72db4-9cbb-4dec-8de9-f7d20a023ef8")
+	)
+	(wire
+		(pts
+			(xy 48.26 85.09) (xy 66.04 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5e1eb7c-3ca4-416f-9c7c-364991637c06")
+	)
+	(wire
+		(pts
+			(xy 106.68 153.67) (xy 106.68 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6830db9-946f-4102-a363-85aaca86e6d7")
+	)
+	(wire
+		(pts
+			(xy 59.69 76.2) (xy 48.26 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaee1368-7f5f-4f1e-98a1-425bcdf2542e")
+	)
+	(wire
+		(pts
+			(xy 227.33 134.62) (xy 245.11 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af17f2a3-f0c8-471c-b679-aa24de9cf280")
+	)
+	(wire
+		(pts
+			(xy 227.33 147.32) (xy 245.11 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0863185-5ee7-46b5-b815-12c657d721c5")
+	)
+	(wire
+		(pts
+			(xy 59.69 34.29) (xy 48.26 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0bea182-4bee-4dfd-b863-cc52c8c9594b")
+	)
+	(wire
+		(pts
+			(xy 106.68 68.58) (xy 106.68 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3b5b82b-9a41-4ce7-92b0-2747508a9efd")
+	)
+	(wire
+		(pts
+			(xy 106.68 120.65) (xy 95.25 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b60d1406-236f-47e4-b91b-9515dae5dc4a")
+	)
+	(wire
+		(pts
+			(xy 95.25 87.63) (xy 113.03 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b61d9f02-ffae-4383-bd37-954d51377d4b")
+	)
+	(wire
+		(pts
+			(xy 48.26 45.72) (xy 66.04 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6a4eeb0-dbb2-448d-a7bc-7ee0cbc7ca9f")
+	)
+	(wire
+		(pts
+			(xy 101.6 158.75) (xy 101.6 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b73837a4-2e02-40fc-b0c0-5624d23488e3")
+	)
+	(wire
+		(pts
+			(xy 227.33 132.08) (xy 245.11 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc10a5f6-4345-48e1-89d0-6377224a3c03")
+	)
+	(wire
+		(pts
+			(xy 256.54 25.4) (xy 266.7 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c037774f-f11d-4660-93ef-ea5c516d9a6b")
+	)
+	(wire
+		(pts
+			(xy 48.26 93.98) (xy 66.04 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3c4db87-2b3d-478b-b613-3fc8e1aa5044")
+	)
+	(wire
+		(pts
+			(xy 101.6 31.75) (xy 101.6 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c54ca636-c3e2-41b8-bb62-df32cdbb23a9")
+	)
+	(wire
+		(pts
+			(xy 227.33 139.7) (xy 245.11 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5c97e3d-2d73-41ec-bcda-e3f2d1c273a7")
+	)
+	(wire
+		(pts
+			(xy 59.69 68.58) (xy 59.69 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c64e7dbb-c21d-48dc-bd65-79b5edb5bb67")
+	)
+	(wire
+		(pts
+			(xy 48.26 31.75) (xy 54.61 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6dc839b-29d7-4219-93fa-f3aa84a98d78")
+	)
+	(bus
+		(pts
+			(xy 247.65 154.94) (xy 274.32 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c810c750-bba1-44c2-a3b4-78aadc9b481d")
+	)
+	(wire
+		(pts
+			(xy 227.33 152.4) (xy 245.11 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8b45f47-16de-4e33-b36f-25d87ce56712")
+	)
+	(wire
+		(pts
+			(xy 95.25 138.43) (xy 113.03 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb78a1a9-54e3-45f6-8a9e-297081223d5b")
+	)
+	(wire
+		(pts
+			(xy 95.25 31.75) (xy 101.6 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf4a0461-dce3-4ca8-8a59-cc9758f0e8d3")
+	)
+	(wire
+		(pts
+			(xy 48.26 118.11) (xy 54.61 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d47d4e6f-f480-412a-9d5e-8d2b198edf9c")
+	)
+	(wire
+		(pts
+			(xy 106.68 161.29) (xy 95.25 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d537919b-368b-480e-a528-f5c3be7b287e")
+	)
+	(wire
+		(pts
+			(xy 48.26 80.01) (xy 66.04 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d66263c5-d40d-456b-9974-360a370efc50")
+	)
+	(wire
+		(pts
+			(xy 48.26 40.64) (xy 66.04 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6e7937b-831f-458b-ba7e-0cb49246aac0")
+	)
+	(wire
+		(pts
+			(xy 106.68 34.29) (xy 95.25 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9109be3-1082-4828-b8a1-777a681ae0d5")
+	)
+	(wire
+		(pts
+			(xy 59.69 161.29) (xy 48.26 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da7bb398-f61a-49ba-b521-05f9df4f5aef")
+	)
+	(wire
+		(pts
+			(xy 54.61 73.66) (xy 54.61 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dff8f5ef-2389-4fe9-aca1-2220481ffd2b")
+	)
+	(wire
+		(pts
+			(xy 48.26 49.53) (xy 66.04 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e229b1e3-2822-4f10-bc7f-c911ea1f9233")
+	)
+	(wire
+		(pts
+			(xy 48.26 91.44) (xy 66.04 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e272ec0b-1b69-499e-8e7a-77d6e9dfb9b4")
+	)
+	(bus
+		(pts
+			(xy 247.65 127) (xy 247.65 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9100ec2-5b20-4250-8ad4-395d7b1af537")
+	)
+	(wire
+		(pts
+			(xy 227.33 137.16) (xy 245.11 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed8f0670-5cf8-47f0-9f95-7f49845bf368")
+	)
+	(wire
+		(pts
+			(xy 95.25 165.1) (xy 113.03 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1c07f5d-eff0-4a94-a07d-76fe0021cbac")
+	)
+	(wire
+		(pts
+			(xy 95.25 118.11) (xy 101.6 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6b8187f-150b-4e55-b0a2-768b7591a3cd")
+	)
+	(wire
+		(pts
+			(xy 48.26 172.72) (xy 66.04 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9f44fe5-2e62-4f98-be2f-1e42d458d5d0")
+	)
+	(wire
+		(pts
+			(xy 48.26 176.53) (xy 66.04 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc034045-572f-49f6-ad2a-24b5cec465a5")
+	)
+	(wire
+		(pts
+			(xy 48.26 167.64) (xy 66.04 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcdc7e7c-8d30-4991-bdf6-0955ecbe82a4")
+	)
+	(wire
+		(pts
+			(xy 48.26 138.43) (xy 66.04 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe0d07aa-7305-4f77-8aa0-227f3babde31")
+	)
+	(wire
+		(pts
+			(xy 207.01 142.24) (xy 207.01 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe5f600c-fa53-4468-aabd-945dcded2349")
+	)
+	(wire
+		(pts
+			(xy 95.25 176.53) (xy 113.03 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff0a146f-b07e-4764-93e2-cc6c07f030ed")
+	)
+	(wire
+		(pts
+			(xy 48.26 132.08) (xy 66.04 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff16096b-a47d-4981-920a-fd60f864c474")
+	)
+	(label "ADC_SPI.CSn_6"
+		(at 49.53 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "03587adc-4e32-40cd-8fc5-d44089a0dc77")
+	)
+	(label "ADC_SPI.MISO"
+		(at 49.53 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07954a2d-ed0a-479a-a1ef-ff02e25b230d")
+	)
+	(label "ADC_SPI.MISO"
+		(at 49.53 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0815f43a-5667-43f7-b515-776f5dfa6750")
+	)
+	(label "ADC.CLK"
+		(at 96.52 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "090175fb-37b7-4b81-9a1b-d04cfb2d1c7e")
+	)
+	(label "ADC.CLK"
+		(at 171.45 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0ff04e1e-b524-4f04-ab45-246e1d19fbe7")
+	)
+	(label "ADC_SPI.MOSI"
+		(at 49.53 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "17bc1181-9b5c-495e-a9b8-1e12041a9d6c")
+	)
+	(label "ADC_SPI.MISO"
+		(at 96.52 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f2eced2-645c-4005-bdaf-e44b4979862f")
+	)
+	(label "ADC_SPI.CSn_7"
+		(at 96.52 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "20634640-c0de-45d6-8ef8-37f486aedd66")
+	)
+	(label "ADC_SPI.SCK"
+		(at 96.52 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "231a6493-fbc7-4621-9906-673e9b15d625")
+	)
+	(label "ADC_SPI.CSn_4"
+		(at 49.53 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "26dae926-6849-4d97-8e96-d1f98539ffa6")
+	)
+	(label "ADC_SPI.CSn_3"
+		(at 227.33 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "272c4570-b041-4230-a8e3-228c8b045c0e")
+	)
+	(label "ADC_SPI.MISO"
+		(at 49.53 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "281d90ed-3f44-4b5a-85b1-ad8e0e5618af")
+	)
+	(label "ADC_SPI.SCK"
+		(at 49.53 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2f5ba58e-5ce3-43a0-b6c9-fa460013d061")
+	)
+	(label "ADC_SPI.MOSI"
+		(at 96.52 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "310eff88-8228-4042-8c63-45d8a77f4f3f")
+	)
+	(label "ADC_SPI{MISO MOSI SCK CSn_[0..7]}"
+		(at 247.65 154.94 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "36bdb9c5-629b-433d-99e2-138d7ed86810")
+	)
+	(label "ADC_SPI.MOSI"
+		(at 49.53 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c1567b9-bb34-4afd-811f-4831b066076e")
+	)
+	(label "ADC_SPI.CSn_1"
+		(at 96.52 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e0e8c05-dcbb-421f-a390-bf67e9384375")
+	)
+	(label "ADC_SPI.CSn_2"
+		(at 49.53 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f65316e-d2ce-43a5-b269-e00db4b00a16")
+	)
+	(label "ADC.CLK"
+		(at 49.53 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "457f3878-f7d9-4966-9742-2b0fe6d5f82c")
+	)
+	(label "ADC.CLK"
+		(at 96.52 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "482b9ef7-4fe8-428a-a971-db700e17c36c")
+	)
+	(label "ADC_SPI.CSn_2"
+		(at 227.33 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f5ae744-3e5d-4bce-9375-28aa3d808f77")
+	)
+	(label "ADC.CLK"
+		(at 49.53 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "51b527f0-1b4f-4e70-bd2b-3482eb9c09de")
+	)
+	(label "ADC_SPI.CSn_6"
+		(at 227.33 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "56c7c716-f2eb-456e-bb06-0bbc9e48b60a")
+	)
+	(label "ADC_SPI.CSn_0"
+		(at 49.53 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5982b7e7-ec7c-4392-981f-ddfe8c137db2")
+	)
+	(label "ADC.CLK"
+		(at 96.52 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e7daa4a-7ab5-4ef0-a0aa-4c87cf36635c")
+	)
+	(label "ADC_SPI.MOSI"
+		(at 227.33 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6247a584-35fa-4d08-bbb2-fc61e89a4001")
+	)
+	(label "ADC_SPI.SCK"
+		(at 96.52 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "64d62a2a-78aa-46e6-b0c4-56a34398d603")
+	)
+	(label "ADC_SPI.MOSI"
+		(at 96.52 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a9280ec-0910-4d5b-8faa-5efb6bd1ab54")
+	)
+	(label "ADC_SPI.MISO"
+		(at 227.33 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7157de1e-e140-4ff9-8354-bd373c310c85")
+	)
+	(label "ADC_SPI.MOSI"
+		(at 49.53 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7222b37b-5dea-4235-a81d-3bfd788f1d32")
+	)
+	(label "ADC_SPI.CSn_3"
+		(at 96.52 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7a7f7337-3c1c-4e28-ba7a-c0d5cecd6c3d")
+	)
+	(label "ADC_SPI.SCK"
+		(at 49.53 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c845323-0131-4389-9247-b56fed73adee")
+	)
+	(label "ADC_SPI.SCK"
+		(at 96.52 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "91001ca3-d1e9-453c-8dbd-011b3a0aad57")
+	)
+	(label "ADC_SPI.CSn_0"
+		(at 227.33 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9332f211-c5b2-4ca8-9974-d392ba8796f2")
+	)
+	(label "ADC_SPI.SCK"
+		(at 49.53 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1a8f9f7-0f4a-49d3-9855-9134747dd9a8")
+	)
+	(label "ADC_SPI.CSn_4"
+		(at 227.33 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a297f599-b940-4d94-a401-d4e48275b900")
+	)
+	(label "ADC.CLK"
+		(at 49.53 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5ccd84c-5243-4f82-ba1e-587f0518d099")
+	)
+	(label "ADC_SPI.MOSI"
+		(at 49.53 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a7a3f234-5d9e-4632-91d2-ce31cb1b78f9")
+	)
+	(label "ADC_SPI.MISO"
+		(at 96.52 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6bc8122-e9f1-487d-8d1d-5b650076cfae")
+	)
+	(label "ADC_SPI.SCK"
+		(at 96.52 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb88a44a-f97c-4bae-a966-7a877fd02731")
+	)
+	(label "ADC_SPI.MOSI"
+		(at 96.52 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bfff239a-e15b-4702-b890-2c7df1c4b800")
+	)
+	(label "ADC.DRDYn"
+		(at 227.33 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c35007b7-fcdd-45d7-b44a-c7d37028c321")
+	)
+	(label "ADC_SPI.CSn_5"
+		(at 96.52 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c9e0862d-7db1-401e-9429-63a4a6a82db7")
+	)
+	(label "ADC_SPI.SCK"
+		(at 227.33 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cbf39897-4259-4d20-8462-b762d21f749e")
+	)
+	(label "ADC.DRDYn"
+		(at 49.53 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1f2847b-6061-4d09-b47f-1ce5a6891046")
+	)
+	(label "ADC_SPI.MISO"
+		(at 49.53 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d6771503-e0a6-4773-9338-1178034ecc49")
+	)
+	(label "ADC.CLK"
+		(at 49.53 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e2156140-633b-4a04-b44d-f30e0bd17956")
+	)
+	(label "ADC.CLK"
+		(at 96.52 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e3273556-bbe8-4801-8303-c2f9bc9027bd")
+	)
+	(label "ADC_SPI.CSn_7"
+		(at 227.33 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb530874-3acd-4a1e-934a-9ecb39881a41")
+	)
+	(label "ADC_SPI.CSn_5"
+		(at 227.33 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eef61fc0-dcba-4cde-b022-0a3770661ea2")
+	)
+	(label "ADC_SPI.MOSI"
+		(at 96.52 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f3d01ace-9483-4436-9c7f-d757ad86949e")
+	)
+	(label "ADC_SPI.MISO"
+		(at 96.52 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f40fbfb9-da1c-4792-806d-2e0f49605379")
+	)
+	(label "ADC_SPI.SCK"
+		(at 49.53 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f89f0fb4-00e4-4b97-9057-a06bc7d32f2a")
+	)
+	(label "ADC_SPI.MISO"
+		(at 96.52 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb1e3ebb-a16b-44ee-964b-a411c0792623")
+	)
+	(label "ADC_SPI.CSn_1"
+		(at 227.33 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc1ce502-ffff-4e42-ba11-602f9f27628d")
+	)
+	(hierarchical_label "DVDD"
+		(shape input)
+		(at 256.54 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "21247116-911c-4417-a760-d7573b15fa1e")
+	)
+	(hierarchical_label "AVDD"
+		(shape input)
+		(at 256.54 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "94ef8429-04aa-4c0b-a130-f111d94280d8")
+	)
+	(hierarchical_label "~{DRDY}"
+		(shape output)
+		(at 274.32 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "b2133e71-7533-4ea6-8bcc-f78343091e51")
+	)
+	(hierarchical_label "SPI"
+		(shape bidirectional)
+		(at 274.32 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "cc75ecc8-9cd0-4fa5-a191-a1d9ae974e2d")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 176.53 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dccd5682-3df0-4a49-b601-9ddac3daadaf")
+		(property "Hálózatosztály" "SE50"
+			(at 179.07 146.558 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Oscillator:ASE-xxxMHz")
+		(at 196.85 142.24 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "04677629-6292-450a-b29a-294d6fdd05f9")
+		(property "Reference" "Y1"
+			(at 192.532 136.144 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ASE-xxxMHz"
+			(at 197.104 157.988 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm"
+			(at 179.07 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.abracon.com/Oscillators/ASV.pdf"
+			(at 199.39 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "3.3V CMOS SMD Crystal Clock Oscillator, Abracon"
+			(at 196.85 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "Még nics kiválasztva!"
+			(at 196.596 155.702 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4d9f8141-6a40-4520-b9ff-5105237e3293")
+		)
+		(pin "2"
+			(uuid "f2bc1225-bf9f-4b2a-886f-d55085492f12")
+		)
+		(pin "3"
+			(uuid "dc62e7e1-9f82-4eec-b1cc-0ef7d9ce96c2")
+		)
+		(pin "4"
+			(uuid "1e525151-793c-4100-bc67-24c4457de50c")
+		)
+		(instances
+			(project "DAQ_PCB_Frontend_Bridge_DS_ADC_v1.0"
+				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/baf7eb7b-2d48-42e0-9358-5f7013b6d863"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 266.7 24.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0a6642b7-3073-4a7c-8563-0c694f8f454d")
+		(property "Reference" "#PWR0188"
+			(at 266.7 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3"
+			(at 266.7 20.574 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 266.7 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c88c87f0-1c71-4124-956e-c67bf2900b9b")
+		)
+		(instances
+			(project "DAQ_PCB_Frontend_Bridge_DS_ADC_v1.0"
+				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/baf7eb7b-2d48-42e0-9358-5f7013b6d863"
+					(reference "#PWR0188")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 59.69 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0b6aac3b-b719-4b48-b547-15c1454b7892")
+		(property "Reference" "#PWR0173"
+			(at 59.69 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3"
+			(at 59.69 65.024 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 59.69 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4288028a-6415-40ac-8f2c-7df5997190e7")
+		)
+		(instances
+			(project "DAQ_PCB_Frontend_Bridge_DS_ADC_v1.0"
+				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/baf7eb7b-2d48-42e0-9358-5f7013b6d863"
+					(reference "#PWR0173")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 101.6 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "186ecc66-2f1c-463f-b0e4-6b073bc91984")
+		(property "Reference" "#PWR0176"
+			(at 101.6 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V"
+			(at 101.6 23.114 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 101.6 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "34c696f9-a6e3-45c2-88ca-8ea660568937")
+		)
+		(instances
+			(project "DAQ_PCB_Frontend_Bridge_DS_ADC_v1.0"
+				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/baf7eb7b-2d48-42e0-9358-5f7013b6d863"
+					(reference "#PWR0176")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 106.68 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1d332134-2285-406f-9e0f-d980fdc11154")
+		(property "Reference" "#PWR0180"
+			(at 106.68 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3"
+			(at 106.68 23.114 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 106.68 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "840211ad-ab0b-48c8-8df8-41f3e916d1e5")
+		)
+		(instances
+			(project "DAQ_PCB_Frontend_Bridge_DS_ADC_v1.0"
+				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/baf7eb7b-2d48-42e0-9358-5f7013b6d863"
+					(reference "#PWR0180")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 106.68 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3f2acaf4-d926-49fc-99a9-3f6fce608116")
+		(property "Reference" "#PWR0182"
+			(at 106.68 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3"
+			(at 106.68 109.474 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 106.68 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9f13d633-4d49-4e1a-ade8-e36ffa08ae9b")
+		)
+		(instances
+			(project "DAQ_PCB_Frontend_Bridge_DS_ADC_v1.0"
+				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/baf7eb7b-2d48-42e0-9358-5f7013b6d863"
+					(reference "#PWR0182")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 101.6 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "51824188-ab87-48ab-8559-cde5828da43a")
+		(property "Reference" "#PWR0179"
+			(at 101.6 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V"
+			(at 101.6 150.114 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 101.6 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7bee48af-66ac-4119-92c7-2bc0b8a6fa85")
+		)
+		(instances
+			(project "DAQ_PCB_Frontend_Bridge_DS_ADC_v1.0"
+				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/baf7eb7b-2d48-42e0-9358-5f7013b6d863"
+					(reference "#PWR0179")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 196.85 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "580a2fd0-3681-45e6-9f35-ccdb6e0c00bd")
+		(property "Reference" "#PWR0184"
+			(at 196.85 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3"
+			(at 196.85 131.064 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 196.85 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d69b835f-feb0-4ca7-8909-a9322d3cf323")
+		)
+		(instances
+			(project "DAQ_PCB_Frontend_Bridge_DS_ADC_v1.0"
+				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/baf7eb7b-2d48-42e0-9358-5f7013b6d863"
+					(reference "#PWR0184")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 106.68 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5f540b5f-9e54-44a2-b194-b1af8354a20e")
+		(property "Reference" "#PWR0181"
+			(at 106.68 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3"
+			(at 106.68 65.024 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 106.68 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "463f6be5-171b-4e4d-a393-3c818b250c33")
+		)
+		(instances
+			(project "DAQ_PCB_Frontend_Bridge_DS_ADC_v1.0"
+				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/baf7eb7b-2d48-42e0-9358-5f7013b6d863"
+					(reference "#PWR0181")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 54.61 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "65673394-5d1c-4f68-97bd-daf8fea92fc5")
+		(property "Reference" "#PWR0171"
+			(at 54.61 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V"
+			(at 54.61 150.114 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 54.61 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8f11a4b3-b9a6-4e81-b102-49c8b84f26a2")
+		)
+		(instances
+			(project "DAQ_PCB_Frontend_Bridge_DS_ADC_v1.0"
+				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/baf7eb7b-2d48-42e0-9358-5f7013b6d863"
+					(reference "#PWR0171")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 106.68 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6929c13b-289e-482e-9c48-a853c2f01088")
+		(property "Reference" "#PWR0183"
+			(at 106.68 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3"
+			(at 106.68 150.114 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 106.68 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fc34c42f-44f5-4e2d-b0ca-51b359e7cfde")
+		)
+		(instances
+			(project "DAQ_PCB_Frontend_Bridge_DS_ADC_v1.0"
+				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/baf7eb7b-2d48-42e0-9358-5f7013b6d863"
+					(reference "#PWR0183")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 212.09 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6b29f93b-034a-40c8-b64e-464a1ed05896")
+		(property "Reference" "#PWR0186"
+			(at 212.09 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3"
+			(at 212.09 145.034 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 212.09 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ae9b5719-36be-4d69-a5d1-41a85875e311")
+		)
+		(instances
+			(project "DAQ_PCB_Frontend_Bridge_DS_ADC_v1.0"
+				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/baf7eb7b-2d48-42e0-9358-5f7013b6d863"
+					(reference "#PWR0186")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 196.85 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "723fdd4c-f962-4c8e-8c5f-75ad70da2251")
+		(property "Reference" "#PWR0185"
+			(at 196.85 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "151c1c5c-e56b-4281-8203-11add29ad1fd")
+		)
+		(instances
+			(project "DAQ_PCB_Frontend_Bridge_DS_ADC_v1.0"
+				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/baf7eb7b-2d48-42e0-9358-5f7013b6d863"
+					(reference "#PWR0185")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 101.6 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8c8f1067-0b75-44e8-90a4-1e456516b7d2")
+		(property "Reference" "#PWR0177"
+			(at 101.6 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V"
+			(at 101.6 65.024 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 101.6 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b40466b7-20f6-4e7c-ac39-9e13b9adc9bf")
+		)
+		(instances
+			(project "DAQ_PCB_Frontend_Bridge_DS_ADC_v1.0"
+				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/baf7eb7b-2d48-42e0-9358-5f7013b6d863"
+					(reference "#PWR0177")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 54.61 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9513ff0a-9ee6-4722-a184-3c1459cd2f46")
+		(property "Reference" "#PWR0168"
+			(at 54.61 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V"
+			(at 54.61 23.114 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 54.61 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d3d0d04b-2d63-4657-9e5a-2ecbe4403700")
+		)
+		(instances
+			(project "DAQ_PCB_Frontend_Bridge_DS_ADC_v1.0"
+				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/baf7eb7b-2d48-42e0-9358-5f7013b6d863"
+					(reference "#PWR0168")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 185.42 142.24 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "98949a8a-0dde-4765-9e65-e926488cb198")
+		(property "Reference" "R73"
+			(at 185.42 140.716 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "33R"
+			(at 185.42 142.24 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 185.42 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 185.42 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "99bc4fee-a78a-4341-93d0-d0decded19c2")
+		)
+		(pin "2"
+			(uuid "c64294f8-e69d-4225-af1c-aade28a55a6a")
+		)
+		(instances
+			(project "DAQ_PCB_Frontend_Bridge_DS_ADC_v1.0"
+				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/baf7eb7b-2d48-42e0-9358-5f7013b6d863"
+					(reference "R73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 59.69 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "99934001-bf56-4b17-9d5f-2351a3867f6d")
+		(property "Reference" "#PWR0174"
+			(at 59.69 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3"
+			(at 59.69 109.474 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 59.69 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e8c95e97-1bdb-4147-b680-4e361c827a15")
+		)
+		(instances
+			(project "DAQ_PCB_Frontend_Bridge_DS_ADC_v1.0"
+				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/baf7eb7b-2d48-42e0-9358-5f7013b6d863"
+					(reference "#PWR0174")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 101.6 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a818c1ec-08ce-4547-9f0b-eb3ad02c3a1c")
+		(property "Reference" "#PWR0178"
+			(at 101.6 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V"
+			(at 101.6 109.474 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 101.6 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e07f8bef-9664-4e6a-a5f9-e3195a26db3c")
+		)
+		(instances
+			(project "DAQ_PCB_Frontend_Bridge_DS_ADC_v1.0"
+				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/baf7eb7b-2d48-42e0-9358-5f7013b6d863"
+					(reference "#PWR0178")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 59.69 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c2602a2d-5de5-44d4-a0ab-f1bb6e032bc1")
+		(property "Reference" "#PWR0172"
+			(at 59.69 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3"
+			(at 59.69 23.114 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 59.69 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "95f54dce-fcb0-4794-8635-5b377226ec63")
+		)
+		(instances
+			(project "DAQ_PCB_Frontend_Bridge_DS_ADC_v1.0"
+				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/baf7eb7b-2d48-42e0-9358-5f7013b6d863"
+					(reference "#PWR0172")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 212.09 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c72b8dee-6f54-4139-a851-a27940a5b576")
+		(property "Reference" "C49"
+			(at 214.376 151.384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 214.376 152.908 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 212.09 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 212.09 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c6efcc13-f1b6-4590-96f4-8c4aef2fa178")
+		)
+		(pin "1"
+			(uuid "7e946e3b-7254-42b5-9cba-c444f76ce6e4")
+		)
+		(instances
+			(project "DAQ_PCB_Frontend_Bridge_DS_ADC_v1.0"
+				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/baf7eb7b-2d48-42e0-9358-5f7013b6d863"
+					(reference "C49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 54.61 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "caa9f91d-1531-4478-9e80-1ada0c31eb16")
+		(property "Reference" "#PWR0170"
+			(at 54.61 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V"
+			(at 54.61 109.474 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 54.61 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a9a21add-6464-468b-bdb4-50f43c6c9dff")
+		)
+		(instances
+			(project "DAQ_PCB_Frontend_Bridge_DS_ADC_v1.0"
+				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/baf7eb7b-2d48-42e0-9358-5f7013b6d863"
+					(reference "#PWR0170")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 59.69 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d07c3801-ac17-47e5-830f-d9aad4594260")
+		(property "Reference" "#PWR0175"
+			(at 59.69 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3"
+			(at 59.69 150.114 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 59.69 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c523c43f-21a9-4381-8796-4f676ff7d196")
+		)
+		(instances
+			(project "DAQ_PCB_Frontend_Bridge_DS_ADC_v1.0"
+				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/baf7eb7b-2d48-42e0-9358-5f7013b6d863"
+					(reference "#PWR0175")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 212.09 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e84e394f-bf5c-43bf-bc48-2c8b996ebf1f")
+		(property "Reference" "#PWR0187"
+			(at 212.09 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 212.217 158.0642 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 212.09 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "532d1d4c-8f2e-4df2-9371-d3509ce6b55d")
+		)
+		(instances
+			(project "DAQ_PCB_Frontend_Bridge_DS_ADC_v1.0"
+				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/baf7eb7b-2d48-42e0-9358-5f7013b6d863"
+					(reference "#PWR0187")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 54.61 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f5c97f8e-511c-4a40-92d3-c90892b812a9")
+		(property "Reference" "#PWR0169"
+			(at 54.61 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V"
+			(at 54.61 65.024 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 54.61 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "adc76165-d9e7-4874-bca4-48224dfaf426")
+		)
+		(instances
+			(project "DAQ_PCB_Frontend_Bridge_DS_ADC_v1.0"
+				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/baf7eb7b-2d48-42e0-9358-5f7013b6d863"
+					(reference "#PWR0169")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 274.32 24.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f8c08a5e-9231-4524-b19f-23fa5e7b795a")
+		(property "Reference" "#PWR0189"
+			(at 274.32 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V"
+			(at 274.32 20.574 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 274.32 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e0202443-a8ac-4739-aace-6c8c8f3c34a8")
+		)
+		(instances
+			(project "DAQ_PCB_Frontend_Bridge_DS_ADC_v1.0"
+				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/baf7eb7b-2d48-42e0-9358-5f7013b6d863"
+					(reference "#PWR0189")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 74.93 71.12)
+		(size 20.32 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "15a51ecf-1981-4ae1-b003-5ae338da691a")
+		(property "Sheetname" "DS_UNIT_4"
+			(at 74.93 70.4084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ADS1120.kicad_sch"
+			(at 74.93 97.1046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AVDD" input
+			(at 95.25 73.66 0)
+			(uuid "abb5705f-69db-40ba-9b3c-2b0d55794395")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLK" input
+			(at 95.25 93.98 0)
+			(uuid "8f79f947-54ce-424b-9c56-aaa952824cce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DVDD" input
+			(at 95.25 76.2 0)
+			(uuid "8ecf3f59-017a-43b9-84b9-0ff16b694823")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_MISO" output
+			(at 95.25 80.01 0)
+			(uuid "5ae2b8a4-cc39-4317-82a1-6aff015db75a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_MOSI" input
+			(at 95.25 82.55 0)
+			(uuid "15af19ab-0df6-4e3d-b23b-5e39efa83375")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_SCK" input
+			(at 95.25 85.09 0)
+			(uuid "98857051-8033-4167-b96f-532b18fc59e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_~{CS}" input
+			(at 95.25 87.63 0)
+			(uuid "33ea00ff-8ef9-462f-ac51-a7596365c11d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{DataReady}" output
+			(at 95.25 91.44 0)
+			(uuid "85c1827b-dcf9-4aa3-a2f4-ed7d7c923afe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project ""
+				(path "/baf7eb7b-2d48-42e0-9358-5f7013b6d863"
+					(page "#")
+				)
+			)
+			(project "DAQ_PCB_Frontend_Bridge_DS_ADC_v1.0"
+				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/baf7eb7b-2d48-42e0-9358-5f7013b6d863"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 27.94 29.21)
+		(size 20.32 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "222b3a69-56b1-417b-9424-f2676d96f1b7")
+		(property "Sheetname" "DS_UNIT_1"
+			(at 27.94 28.4984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ADS1120.kicad_sch"
+			(at 27.94 55.1946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AVDD" input
+			(at 48.26 31.75 0)
+			(uuid "53b30701-bd75-4502-b34f-21d7f414c99d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLK" input
+			(at 48.26 52.07 0)
+			(uuid "8a14177d-4dbc-4335-b366-57e8020987a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DVDD" input
+			(at 48.26 34.29 0)
+			(uuid "c3a21ec4-93de-4ec0-bae2-480a79e325cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_MISO" output
+			(at 48.26 38.1 0)
+			(uuid "ad0c2c2f-7ac5-4b22-abcc-05e578b4e2be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_MOSI" input
+			(at 48.26 40.64 0)
+			(uuid "644fbc63-ff22-466f-a036-66687b448161")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_SCK" input
+			(at 48.26 43.18 0)
+			(uuid "8c3c4b30-471a-428f-a494-1c1b638fbe9a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_~{CS}" input
+			(at 48.26 45.72 0)
+			(uuid "c2db70d8-353b-4cd5-855f-6c51daa8eda9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{DataReady}" output
+			(at 48.26 49.53 0)
+			(uuid "48b51b24-84e4-42f4-9f6f-a8905b20b0ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project ""
+				(path "/baf7eb7b-2d48-42e0-9358-5f7013b6d863"
+					(page "#")
+				)
+			)
+			(project "DAQ_PCB_Frontend_Bridge_DS_ADC_v1.0"
+				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/baf7eb7b-2d48-42e0-9358-5f7013b6d863"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 74.93 29.21)
+		(size 20.32 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "37b5812b-fa80-4905-94cd-868e816ca22a")
+		(property "Sheetname" "DS_UNIT_2"
+			(at 74.93 28.4984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ADS1120.kicad_sch"
+			(at 74.93 55.1946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AVDD" input
+			(at 95.25 31.75 0)
+			(uuid "cef2c1d1-23e7-4d6a-b335-f37324818de2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLK" input
+			(at 95.25 52.07 0)
+			(uuid "88338bac-15ad-4cae-a57c-1c9100502666")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DVDD" input
+			(at 95.25 34.29 0)
+			(uuid "4092420a-2f96-4631-90a5-712af8d005b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_MISO" output
+			(at 95.25 38.1 0)
+			(uuid "0b9f6b0a-dc57-4072-82d0-2ca954e56df1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_MOSI" input
+			(at 95.25 40.64 0)
+			(uuid "1be5135f-7d9f-4668-bf6a-42ba4cd89cb2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_SCK" input
+			(at 95.25 43.18 0)
+			(uuid "48e23495-f529-4ef5-a487-96aaecf556ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_~{CS}" input
+			(at 95.25 45.72 0)
+			(uuid "5509b061-25e4-48a6-9285-1548f6d65b9d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{DataReady}" output
+			(at 95.25 49.53 0)
+			(uuid "0311a149-b8d8-4cc0-aa91-5acc363c34f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project ""
+				(path "/baf7eb7b-2d48-42e0-9358-5f7013b6d863"
+					(page "#")
+				)
+			)
+			(project "DAQ_PCB_Frontend_Bridge_DS_ADC_v1.0"
+				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/baf7eb7b-2d48-42e0-9358-5f7013b6d863"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 27.94 156.21)
+		(size 20.32 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "52bbc18c-2e86-4ac4-8429-f9d7bbf64314")
+		(property "Sheetname" "DS_UNIT_7"
+			(at 27.94 155.4984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ADS1120.kicad_sch"
+			(at 27.94 182.1946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AVDD" input
+			(at 48.26 158.75 0)
+			(uuid "c6079580-fa1c-4074-95a7-f069837ffbbf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLK" input
+			(at 48.26 179.07 0)
+			(uuid "7ab3e382-55e1-415a-9002-0526e173ce66")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DVDD" input
+			(at 48.26 161.29 0)
+			(uuid "ce66d4ad-dae1-4f4c-b6c3-f7767e993f2a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_MISO" output
+			(at 48.26 165.1 0)
+			(uuid "d65afd4a-1634-4e6a-88fb-a5b8becc9591")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_MOSI" input
+			(at 48.26 167.64 0)
+			(uuid "7ac7bb14-ee2f-4bbe-9358-fd60e0751f53")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_SCK" input
+			(at 48.26 170.18 0)
+			(uuid "b73cbd14-d5de-444e-b6a6-d6b85ea2ab66")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_~{CS}" input
+			(at 48.26 172.72 0)
+			(uuid "88c5ad7a-a0d9-4a58-b2be-33dea6aeb775")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{DataReady}" output
+			(at 48.26 176.53 0)
+			(uuid "13e75f9e-44c3-4d07-a10f-64457b1cdc83")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project ""
+				(path "/baf7eb7b-2d48-42e0-9358-5f7013b6d863"
+					(page "#")
+				)
+			)
+			(project "DAQ_PCB_Frontend_Bridge_DS_ADC_v1.0"
+				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/baf7eb7b-2d48-42e0-9358-5f7013b6d863"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 74.93 156.21)
+		(size 20.32 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8c0ec65f-58b8-48f1-a6db-f765038e93c5")
+		(property "Sheetname" "DS_UNIT_8"
+			(at 74.93 155.4984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ADS1120.kicad_sch"
+			(at 74.93 182.1946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AVDD" input
+			(at 95.25 158.75 0)
+			(uuid "7af5a243-bf92-4194-bbdd-d0cd4d29c456")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLK" input
+			(at 95.25 179.07 0)
+			(uuid "3a9a3b51-ed4c-48d8-b227-eb427e896fa6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DVDD" input
+			(at 95.25 161.29 0)
+			(uuid "8d31bc9c-02e9-499c-8b94-a9bafa1d7782")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_MISO" output
+			(at 95.25 165.1 0)
+			(uuid "ea562d1a-4894-4396-a400-10b3b4040179")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_MOSI" input
+			(at 95.25 167.64 0)
+			(uuid "1b9e2eb7-15f3-4ec1-9a02-67b001a3ab18")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_SCK" input
+			(at 95.25 170.18 0)
+			(uuid "a1be4151-24c0-4f66-9c6d-5e2cec263b5f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_~{CS}" input
+			(at 95.25 172.72 0)
+			(uuid "e7cdabd0-1880-401e-8ffe-9f5681daf93c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{DataReady}" output
+			(at 95.25 176.53 0)
+			(uuid "a8109427-daf8-441d-b474-3b47373a5fc3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project ""
+				(path "/baf7eb7b-2d48-42e0-9358-5f7013b6d863"
+					(page "#")
+				)
+			)
+			(project "DAQ_PCB_Frontend_Bridge_DS_ADC_v1.0"
+				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/baf7eb7b-2d48-42e0-9358-5f7013b6d863"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 74.93 115.57)
+		(size 20.32 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "9606d900-f926-4184-aa88-0f4b1def4af2")
+		(property "Sheetname" "DS_UNIT_6"
+			(at 74.93 114.8584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ADS1120.kicad_sch"
+			(at 74.93 141.5546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AVDD" input
+			(at 95.25 118.11 0)
+			(uuid "cd312781-5d9d-47a1-9108-35ad962c3a73")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLK" input
+			(at 95.25 138.43 0)
+			(uuid "e5c1cebb-0da1-4814-a63b-487c5d30277f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DVDD" input
+			(at 95.25 120.65 0)
+			(uuid "f0853b5a-c121-4858-8c2a-c12c8cc28dd0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_MISO" output
+			(at 95.25 124.46 0)
+			(uuid "04d57445-3afd-4ce1-a590-c000d2bea902")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_MOSI" input
+			(at 95.25 127 0)
+			(uuid "5acb95ba-689a-4ac8-9be7-38cbfee7a147")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_SCK" input
+			(at 95.25 129.54 0)
+			(uuid "73439bed-ebae-49ff-92b4-66df59ab80bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_~{CS}" input
+			(at 95.25 132.08 0)
+			(uuid "b9a4e162-eed3-485c-9806-1af4c3becde0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{DataReady}" output
+			(at 95.25 135.89 0)
+			(uuid "037b5f2f-d97d-405b-888b-8a19c6325960")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project ""
+				(path "/baf7eb7b-2d48-42e0-9358-5f7013b6d863"
+					(page "#")
+				)
+			)
+			(project "DAQ_PCB_Frontend_Bridge_DS_ADC_v1.0"
+				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/baf7eb7b-2d48-42e0-9358-5f7013b6d863"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 27.94 115.57)
+		(size 20.32 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e23c7c19-3f03-4790-9fdd-8ff1331e4344")
+		(property "Sheetname" "DS_UNIT_5"
+			(at 27.94 114.8584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ADS1120.kicad_sch"
+			(at 27.94 141.5546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AVDD" input
+			(at 48.26 118.11 0)
+			(uuid "1a04929d-0276-46c6-a475-99f4fe2b3592")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLK" input
+			(at 48.26 138.43 0)
+			(uuid "a1b643e8-98ec-487f-90d7-62f84c5afb4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DVDD" input
+			(at 48.26 120.65 0)
+			(uuid "2cfda8d7-fc9b-4325-957f-86968c783b5e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_MISO" output
+			(at 48.26 124.46 0)
+			(uuid "1adbd263-7e87-45a9-a011-ccd27da9774b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_MOSI" input
+			(at 48.26 127 0)
+			(uuid "4ca769d1-b2a1-496e-ae9c-cf3824e1ba1f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_SCK" input
+			(at 48.26 129.54 0)
+			(uuid "ffac8420-88c6-449d-8e1a-297fd396302b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_~{CS}" input
+			(at 48.26 132.08 0)
+			(uuid "c04eb272-255f-47f8-b005-941a5769d6d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{DataReady}" output
+			(at 48.26 135.89 0)
+			(uuid "642a29bb-f622-424b-a586-462e1a91d828")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project ""
+				(path "/baf7eb7b-2d48-42e0-9358-5f7013b6d863"
+					(page "#")
+				)
+			)
+			(project "DAQ_PCB_Frontend_Bridge_DS_ADC_v1.0"
+				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/baf7eb7b-2d48-42e0-9358-5f7013b6d863"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 27.94 71.12)
+		(size 20.32 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e3ee1584-8eed-4ddd-8b27-1dcdf1bbf946")
+		(property "Sheetname" "DS_UNIT_3"
+			(at 27.94 70.4084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ADS1120.kicad_sch"
+			(at 27.94 97.1046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AVDD" input
+			(at 48.26 73.66 0)
+			(uuid "1dc439d3-637b-4d49-aaac-489508c13e83")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLK" input
+			(at 48.26 93.98 0)
+			(uuid "1683666c-61d3-4a5f-9268-0961a23094ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DVDD" input
+			(at 48.26 76.2 0)
+			(uuid "669a3087-400a-44e3-a6a0-e5d365deb33b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_MISO" output
+			(at 48.26 80.01 0)
+			(uuid "402f60d2-5c72-48e6-9117-7febce6745fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_MOSI" input
+			(at 48.26 82.55 0)
+			(uuid "ada0a3f9-15ee-4586-a06f-7d4b36462e8e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_SCK" input
+			(at 48.26 85.09 0)
+			(uuid "56878470-93d5-43fd-b01b-3d497622a6c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_~{CS}" input
+			(at 48.26 87.63 0)
+			(uuid "230bd684-d0ae-451e-a2b3-dbd680fd8d99")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{DataReady}" output
+			(at 48.26 91.44 0)
+			(uuid "999d49ad-8b62-40e1-aed2-17e54f18a94c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project ""
+				(path "/baf7eb7b-2d48-42e0-9358-5f7013b6d863"
+					(page "#")
+				)
+			)
+			(project "DAQ_PCB_Frontend_Bridge_DS_ADC_v1.0"
+				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/baf7eb7b-2d48-42e0-9358-5f7013b6d863"
+					(page "5")
+				)
+			)
+		)
+	)
+)

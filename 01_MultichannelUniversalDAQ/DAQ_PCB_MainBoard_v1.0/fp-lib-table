@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Molex") (type "KiCad") (uri "C:/Users/Kajári János/Documents/KiCad/LIB/Molex.pretty") (options "") (descr ""))
+	(lib (name "Hartning_B2B_Connector") (type "KiCad") (uri "C:/Users/Kajári János/Documents/KiCad/LIB/Hartning_B2B_Connector.pretty") (options "") (descr ""))
+)
