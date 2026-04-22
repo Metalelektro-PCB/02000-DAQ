@@ -1722,7 +1722,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 63.5) (xy 186.69 63.5)
+			(xy 160.02 63.5) (xy 165.1 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1772,6 +1772,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 60.96) (xy 186.69 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15d3e908-0b1c-4af9-b6a6-67ea1672e1d6")
+	)
+	(wire
+		(pts
 			(xy 116.84 55.88) (xy 129.54 55.88)
 		)
 		(stroke
@@ -1792,7 +1802,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 60.96) (xy 186.69 60.96)
+			(xy 160.02 60.96) (xy 165.1 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1832,7 +1842,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 127) (xy 186.69 127)
+			(xy 160.02 127) (xy 165.1 127)
 		)
 		(stroke
 			(width 0)
@@ -1842,7 +1852,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 134.62) (xy 186.69 134.62)
+			(xy 160.02 134.62) (xy 165.1 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1882,6 +1892,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 63.5) (xy 186.69 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fc0b41b-25b6-459e-be48-29c9691fe61a")
+	)
+	(wire
+		(pts
 			(xy 142.24 148.59) (xy 146.05 148.59)
 		)
 		(stroke
@@ -1889,6 +1909,16 @@
 			(type default)
 		)
 		(uuid "420e1bec-00b2-42bd-bef0-b80014a640b1")
+	)
+	(wire
+		(pts
+			(xy 170.18 127) (xy 186.69 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4564c5f0-9ef7-4e9c-b9a9-c2e638495662")
 	)
 	(wire
 		(pts
@@ -1919,6 +1949,16 @@
 			(type default)
 		)
 		(uuid "5765e428-31c9-4946-aea6-9be0b746da09")
+	)
+	(wire
+		(pts
+			(xy 170.1309 55.88) (xy 186.69 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59fc1d5e-974e-4ef9-969a-706068654560")
 	)
 	(wire
 		(pts
@@ -1959,6 +1999,26 @@
 			(type default)
 		)
 		(uuid "6576cea2-826c-49b9-99d4-5519ddf4e68c")
+	)
+	(wire
+		(pts
+			(xy 170.18 132.08) (xy 186.69 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66179ea8-40c8-4fe8-ace5-aa97eb341c01")
+	)
+	(wire
+		(pts
+			(xy 170.18 134.62) (xy 186.69 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b1d6004-032d-42c1-8161-9b7ad9b1bc39")
 	)
 	(wire
 		(pts
@@ -2142,7 +2202,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 132.08) (xy 186.69 132.08)
+			(xy 160.02 132.08) (xy 165.1 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2192,7 +2252,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 55.88) (xy 186.69 55.88)
+			(xy 160.02 55.88) (xy 165.0509 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2928,6 +2988,85 @@
 			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/baf7eb7b-2d48-42e0-9358-5f7013b6d863"
 					(reference "C62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 167.64 60.96 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "12a4c37b-6525-4d5a-b12f-24a09f1c05a6")
+		(property "Reference" "R213"
+			(at 164.084 60.198 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 167.64 60.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 167.64 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 167.64 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1e39428c-5076-4504-90c0-16d4d9e0bdb0")
+		)
+		(pin "2"
+			(uuid "44aa111a-39ce-4a86-bb5f-37a8508ffaaa")
+		)
+		(instances
+			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
+				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/baf7eb7b-2d48-42e0-9358-5f7013b6d863"
+					(reference "R213")
 					(unit 1)
 				)
 			)
@@ -4024,6 +4163,164 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 167.64 127 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "7efab19e-2617-4982-b24d-db18c39726a8")
+		(property "Reference" "R216"
+			(at 164.084 126.238 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 167.64 127 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 167.64 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 167.64 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d41f1116-5600-40a6-88ab-7501790ae36b")
+		)
+		(pin "2"
+			(uuid "ce5280b6-54c3-4b10-ab38-d90ae219ba17")
+		)
+		(instances
+			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
+				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/baf7eb7b-2d48-42e0-9358-5f7013b6d863"
+					(reference "R216")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 167.64 63.5 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "86d9a21b-f98a-4982-8bd8-af7bb1592c12")
+		(property "Reference" "R214"
+			(at 164.084 62.738 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 167.64 63.5 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 167.64 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 167.64 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8c4c99fb-1701-4fd0-8e75-818dfac04085")
+		)
+		(pin "2"
+			(uuid "9a1bfcfe-a5a5-4790-8918-0f0fdb217425")
+		)
+		(instances
+			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
+				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/baf7eb7b-2d48-42e0-9358-5f7013b6d863"
+					(reference "R214")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 139.7 161.29 0)
 		(unit 1)
@@ -4258,6 +4555,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 167.5909 55.88 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b514e519-628b-4c8a-93cb-0f9ffe313150")
+		(property "Reference" "R215"
+			(at 164.0349 55.118 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 167.5909 55.88 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 167.5909 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.5909 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 167.5909 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "47d204c1-3ac7-4d59-879e-0486dd24dd63")
+		)
+		(pin "2"
+			(uuid "6050859e-1cc2-408c-b9c2-61bfa48bf3d8")
+		)
+		(instances
+			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
+				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/baf7eb7b-2d48-42e0-9358-5f7013b6d863"
+					(reference "R215")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDA")
 		(at 137.16 96.52 0)
 		(unit 1)
@@ -4410,6 +4786,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 167.64 132.08 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "c1c2de26-1a3a-4ab3-9a29-a47b607fd28d")
+		(property "Reference" "R217"
+			(at 164.084 131.318 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 167.64 132.08 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 167.64 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 167.64 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ab6b66a3-90cd-4482-8799-14874fa34d6d")
+		)
+		(pin "2"
+			(uuid "2036dfbe-8d05-4565-832f-45551b97f2f6")
+		)
+		(instances
+			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
+				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/baf7eb7b-2d48-42e0-9358-5f7013b6d863"
+					(reference "R217")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 137.16 91.44 0)
 		(unit 1)
@@ -4481,6 +4936,85 @@
 			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/baf7eb7b-2d48-42e0-9358-5f7013b6d863"
 					(reference "#PWR0343")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 167.64 134.62 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "ca1132ce-5281-4144-b917-a7f671de83c3")
+		(property "Reference" "R218"
+			(at 164.084 133.858 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 167.64 134.62 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 167.64 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 167.64 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "626d809a-b60a-44f4-87e0-92297fed48cf")
+		)
+		(pin "2"
+			(uuid "eb0bca02-a03e-4914-bb89-19f6309628dc")
+		)
+		(instances
+			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
+				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/baf7eb7b-2d48-42e0-9358-5f7013b6d863"
+					(reference "R218")
 					(unit 1)
 				)
 			)
@@ -4656,7 +5190,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 147.32 127 0)
 			(hide yes)
 			(show_name no)
