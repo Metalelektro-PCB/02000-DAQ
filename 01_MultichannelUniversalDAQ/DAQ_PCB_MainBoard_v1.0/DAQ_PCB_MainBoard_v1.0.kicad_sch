@@ -4837,16 +4837,6 @@
 				(justify right)
 			)
 		)
-		(pin "PWR_MEAS" output
-			(at 146.05 63.5 270)
-			(uuid "a4c3be37-49f4-432a-a69d-a45157a9a7e2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "VCC_PoE+" input
 			(at 127 44.45 180)
 			(uuid "80e790a5-1e34-4a0d-929b-c591f8058ce1")
@@ -4860,6 +4850,16 @@
 		(pin "VCC_PoE-" input
 			(at 127 46.99 180)
 			(uuid "61c8fc2e-eaaf-49c2-801b-153b2c2df845")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWR_SENSE" output
+			(at 146.05 63.5 270)
+			(uuid "6ff8f1ba-eaa7-481a-8a63-006474579a49")
 			(effects
 				(font
 					(size 1.27 1.27)

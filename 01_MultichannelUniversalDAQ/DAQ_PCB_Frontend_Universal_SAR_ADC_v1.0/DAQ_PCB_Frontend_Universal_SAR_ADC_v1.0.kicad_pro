@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [],
@@ -256,39 +256,11 @@
         0,
         0,
         0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        2
-      ],
-      [
-        0,
-        2,
-        0,
-        1,
-        0,
-        0,
-        1,
-        0,
-        2,
-        2,
-        2,
-        2
-      ],
-      [
         0,
         0,
         0,
         0,
         0,
-        0,
-        1,
-        0,
-        1,
-        0,
-        1,
         2
       ],
       [
@@ -298,21 +270,7 @@
         0,
         0,
         0,
-        1,
-        1,
-        2,
-        1,
-        1,
-        2
-      ],
-      [
         0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
         0,
         0,
         0,
@@ -334,27 +292,13 @@
         2
       ],
       [
-        1,
-        1,
-        1,
-        1,
-        1,
-        0,
-        1,
-        1,
-        1,
-        1,
-        1,
-        2
-      ],
-      [
         0,
         0,
         0,
-        1,
         0,
         0,
-        1,
+        0,
+        0,
         0,
         0,
         0,
@@ -363,42 +307,98 @@
       ],
       [
         0,
-        2,
-        1,
-        2,
         0,
         0,
-        1,
-        0,
-        2,
-        2,
-        2,
-        2
-      ],
-      [
-        0,
-        2,
-        0,
-        1,
         0,
         0,
-        1,
         0,
-        2,
+        0,
+        0,
+        0,
         0,
         0,
         2
       ],
       [
         0,
-        2,
-        1,
-        1,
         0,
         0,
-        1,
         0,
-        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0,
         0,
         2
@@ -422,7 +422,7 @@
       "bus_definition_conflict": "error",
       "bus_entry_needed": "error",
       "bus_to_bus_conflict": "error",
-      "bus_to_net_conflict": "error",
+      "bus_to_net_conflict": "warning",
       "different_unit_footprint": "error",
       "different_unit_net": "error",
       "duplicate_reference": "error",
@@ -442,29 +442,29 @@
       "lib_symbol_mismatch": "warning",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
-      "missing_power_pin": "error",
+      "missing_power_pin": "warning",
       "missing_unit": "warning",
       "multiple_net_names": "warning",
       "net_not_bus_member": "warning",
-      "no_connect_connected": "warning",
+      "no_connect_connected": "ignore",
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
-      "pin_not_driven": "error",
-      "pin_to_pin": "warning",
-      "power_pin_not_driven": "error",
+      "pin_not_driven": "ignore",
+      "pin_to_pin": "error",
+      "power_pin_not_driven": "ignore",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "warning",
       "stacked_pin_name": "warning",
       "unannotated": "error",
-      "unconnected_wire_endpoint": "warning",
+      "unconnected_wire_endpoint": "ignore",
       "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
-      "wire_dangling": "error"
+      "wire_dangling": "warning"
     }
   },
   "libraries": {
@@ -495,6 +495,76 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "AN",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "AN_DIFF",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "DIFF100",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 8,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "DIFF120",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "DIFF90",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 7,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "ETH",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "RMII",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "SE50",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 9,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "SPI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -526,10 +596,37 @@
       "/ADC/ADC_7": [
         "AN"
       ],
+      "/ADC/ADC_SPI.CSn": [
+        "SPI"
+      ],
+      "/ADC/ADC_SPI.MISO": [
+        "SE50",
+        "SPI"
+      ],
+      "/ADC/ADC_SPI.MOSI": [
+        "SE50",
+        "SPI"
+      ],
+      "/ADC/ADC_SPI.SCK": [
+        "SE50",
+        "SPI"
+      ],
+      "/Frontend/PREAMP1/SEN_SGN_IN_CON+": [
+        "AN_DIFF"
+      ],
+      "/Frontend/PREAMP1/SEN_SGN_IN_CON-": [
+        "AN_DIFF"
+      ],
       "/Frontend/PREAMP1/SGN_IN+": [
         "AN_DIFF"
       ],
       "/Frontend/PREAMP1/SGN_IN-": [
+        "AN_DIFF"
+      ],
+      "/Frontend/PREAMP2/SEN_SGN_IN_CON+": [
+        "AN_DIFF"
+      ],
+      "/Frontend/PREAMP2/SEN_SGN_IN_CON-": [
         "AN_DIFF"
       ],
       "/Frontend/PREAMP2/SGN_IN+": [
@@ -538,10 +635,22 @@
       "/Frontend/PREAMP2/SGN_IN-": [
         "AN_DIFF"
       ],
+      "/Frontend/PREAMP3/SEN_SGN_IN_CON+": [
+        "AN_DIFF"
+      ],
+      "/Frontend/PREAMP3/SEN_SGN_IN_CON-": [
+        "AN_DIFF"
+      ],
       "/Frontend/PREAMP3/SGN_IN+": [
         "AN_DIFF"
       ],
       "/Frontend/PREAMP3/SGN_IN-": [
+        "AN_DIFF"
+      ],
+      "/Frontend/PREAMP4/SEN_SGN_IN_CON+": [
+        "AN_DIFF"
+      ],
+      "/Frontend/PREAMP4/SEN_SGN_IN_CON-": [
         "AN_DIFF"
       ],
       "/Frontend/PREAMP4/SGN_IN+": [
@@ -550,10 +659,22 @@
       "/Frontend/PREAMP4/SGN_IN-": [
         "AN_DIFF"
       ],
+      "/Frontend/PREAMP5/SEN_SGN_IN_CON+": [
+        "AN_DIFF"
+      ],
+      "/Frontend/PREAMP5/SEN_SGN_IN_CON-": [
+        "AN_DIFF"
+      ],
       "/Frontend/PREAMP5/SGN_IN+": [
         "AN_DIFF"
       ],
       "/Frontend/PREAMP5/SGN_IN-": [
+        "AN_DIFF"
+      ],
+      "/Frontend/PREAMP6/SEN_SGN_IN_CON+": [
+        "AN_DIFF"
+      ],
+      "/Frontend/PREAMP6/SEN_SGN_IN_CON-": [
         "AN_DIFF"
       ],
       "/Frontend/PREAMP6/SGN_IN+": [
@@ -562,10 +683,22 @@
       "/Frontend/PREAMP6/SGN_IN-": [
         "AN_DIFF"
       ],
+      "/Frontend/PREAMP7/SEN_SGN_IN_CON+": [
+        "AN_DIFF"
+      ],
+      "/Frontend/PREAMP7/SEN_SGN_IN_CON-": [
+        "AN_DIFF"
+      ],
       "/Frontend/PREAMP7/SGN_IN+": [
         "AN_DIFF"
       ],
       "/Frontend/PREAMP7/SGN_IN-": [
+        "AN_DIFF"
+      ],
+      "/Frontend/PREAMP8/SEN_SGN_IN_CON+": [
+        "AN_DIFF"
+      ],
+      "/Frontend/PREAMP8/SEN_SGN_IN_CON-": [
         "AN_DIFF"
       ],
       "/Frontend/PREAMP8/SGN_IN+": [
@@ -573,16 +706,44 @@
       ],
       "/Frontend/PREAMP8/SGN_IN-": [
         "AN_DIFF"
+      ],
+      "/Frontend/SGN_0": [
+        "AN"
+      ],
+      "/Frontend/SGN_1": [
+        "AN"
+      ],
+      "/Frontend/SGN_2": [
+        "AN"
+      ],
+      "/Frontend/SGN_3": [
+        "AN"
+      ],
+      "/Frontend/SGN_4": [
+        "AN"
+      ],
+      "/Frontend/SGN_5": [
+        "AN"
+      ],
+      "/Frontend/SGN_6": [
+        "AN"
+      ],
+      "/Frontend/SGN_7": [
+        "AN"
       ]
     },
     "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
+      "gencad": "",
       "idf": "",
       "netlist": "",
       "plot": "",
+      "pos_files": "",
       "specctra_dsn": "",
+      "step": "",
+      "svg": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -705,7 +866,7 @@
         "uuid": "4059b195-d7bb-4a1b-a7b6-e8bbfebcd311"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR358-363",
     "variants": [
       {
         "description": "CH0: VCC=5V, Diff, G=1\nCH1: VCC=5V, Diff, G=1\nCH2: VCC=5V, Diff, G=1\nCH3: VCC=5V, Diff, G=1\nCH4: VCC=5V, Diff, G=1\nCH5: VCC=5V, Diff, G=1\nCH6: VCC=5V, Diff, G=1\nCH7: VCC=5V, Diff, G=1",

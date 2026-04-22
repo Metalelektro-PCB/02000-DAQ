@@ -14585,7 +14585,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
 			(at 85.09 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -15402,7 +15402,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Transformer_THT_Wurth:T_Wurth_WE-RJ45LAN_7499211121A"
+		(property "Footprint" "KJ_KiCadLib_Others_Footprint:T_Wurth_WE-RJ45LAN_7499211121A"
 			(at 254 49.53 0)
 			(hide yes)
 			(show_name no)

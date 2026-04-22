@@ -2692,6 +2692,90 @@
 		)
 		(uuid "f7a8568e-6733-4d9e-96d0-c2807d1ebc5c")
 	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 242.57 109.22) (xy 259.08 109.22) (xy 259.08 88.9) (xy 242.57 88.9)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "47b5142f-e0d2-4f9f-8873-6c29cd8667d8")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 241.3 104.14) (xy 257.81 104.14) (xy 257.81 87.63) (xy 241.3 87.63)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "d02bed63-acdb-435a-abfe-0a9c1406e25f")
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 242.57 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e56fb62-aaf9-4e7e-be97-575c5e8dc7c2")
+		(property "Hálózatosztály" "SE50"
+			(at 248.158 84.582 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 245.11 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f75a0ba6-554e-41b4-b49e-b213c0d266fd")
+		(property "Hálózatosztály" "SPI"
+			(at 248.92 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:GNDA")
 		(at 144.78 76.2 0)
