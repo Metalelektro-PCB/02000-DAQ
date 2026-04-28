@@ -866,7 +866,7 @@
         "uuid": "4059b195-d7bb-4a1b-a7b6-e8bbfebcd311"
       }
     ],
-    "used_designators": "R213-218",
+    "used_designators": "",
     "variants": [
       {
         "description": "CH0: VCC=5V, Diff, G=1\nCH1: VCC=5V, Diff, G=1\nCH2: VCC=5V, Diff, G=1\nCH3: VCC=5V, Diff, G=1\nCH4: VCC=5V, Diff, G=1\nCH5: VCC=5V, Diff, G=1\nCH6: VCC=5V, Diff, G=1\nCH7: VCC=5V, Diff, G=1",

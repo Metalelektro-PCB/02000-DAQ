@@ -1247,6 +1247,16 @@
 		)
 		(uuid "5d784eeb-a989-4d21-8e8d-b962cb993677")
 	)
+	(text "https://www.tme.eu/hu/details/g3127/univerzalis-keszulekhazak/gainta/"
+		(exclude_from_sim no)
+		(at 84.074 191.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ea56ba3a-730d-41d9-9814-7ed48a6826e6")
+	)
 	(no_connect
 		(at 149.86 184.15)
 		(uuid "2f1c4c14-feee-43b1-a9ed-ad1f7785cf28")

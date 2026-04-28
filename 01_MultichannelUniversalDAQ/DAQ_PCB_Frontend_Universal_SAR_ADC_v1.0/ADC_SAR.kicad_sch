@@ -1546,6 +1546,19 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "ADC: ADAS3022\n+-15V táp: LTC3260\n"
+		(exclude_from_sim no)
+		(at 145.288 31.496 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "39e91c6f-7d50-445d-a504-eeaf723139cb")
+	)
 	(text "Alternative ADC option"
 		(exclude_from_sim no)
 		(at 144.018 108.712 0)
