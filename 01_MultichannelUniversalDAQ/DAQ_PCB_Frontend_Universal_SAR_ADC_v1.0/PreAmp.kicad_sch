@@ -2697,6 +2697,12 @@
 		(uuid "7650d04c-de68-4b15-95ae-a198cece7c90")
 	)
 	(junction
+		(at 113.03 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77f3b9d7-76af-4bd5-949e-cda0ecf156c0")
+	)
+	(junction
 		(at 181.61 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2861,6 +2867,16 @@
 			(type dash)
 		)
 		(uuid "182b8e9d-a89d-48aa-bea8-47a1902caf13")
+	)
+	(wire
+		(pts
+			(xy 118.11 35.56) (xy 118.11 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1877f0b4-f73c-4e3f-bd72-7ad1fcae205b")
 	)
 	(polyline
 		(pts
@@ -3094,6 +3110,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 43.18) (xy 113.03 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38ca7760-5184-4573-a6ae-1eb7bd92e33e")
+	)
+	(wire
+		(pts
 			(xy 156.21 95.25) (xy 166.37 95.25)
 		)
 		(stroke
@@ -3321,6 +3347,16 @@
 			(type default)
 		)
 		(uuid "6af66a72-f2ff-43db-9592-bee10f104ec4")
+	)
+	(wire
+		(pts
+			(xy 118.11 41.91) (xy 118.11 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7147a858-7974-4df6-a8bf-de82f3631c06")
 	)
 	(wire
 		(pts
@@ -4586,6 +4622,17 @@
 		)
 		(uuid "d9ce4d5d-aad5-4842-81d6-a2c93c6317c6")
 	)
+	(hierarchical_label "4.096V"
+		(shape input)
+		(at 118.11 35.56 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dc8507ae-faba-4aba-b04d-5a4c38bcce75")
+	)
 	(symbol
 		(lib_id "Device:R_Small")
 		(at 106.68 39.37 180)
@@ -4597,7 +4644,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "0afb565e-d2df-4ca1-b806-127518bee6d8")
-		(property "Reference" "R63"
+		(property "Reference" "R28"
 			(at 105.156 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4659,35 +4706,35 @@
 		(instances
 			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/022a79db-e54f-40f1-837e-3e9c2ae67292"
-					(reference "R63")
+					(reference "R28")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/21b47b88-cc1a-402a-a5e9-9cb496162117"
-					(reference "R333")
+					(reference "R161")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/2f978675-bbdf-4eaf-b35d-808525022f03"
-					(reference "R335")
+					(reference "R85")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/3936bb27-8b8a-46a9-b080-3a79d9ab5741"
-					(reference "R337")
+					(reference "R123")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/abda6490-951e-4b79-8373-76689447ea38"
-					(reference "R117")
+					(reference "R47")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/aef0a07c-685c-45ab-b53b-cda5a5d0a078"
-					(reference "R338")
+					(reference "R66")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/b3b9e0cb-f494-4399-8e6c-552ef93f033b"
-					(reference "R334")
+					(reference "R142")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/d017f267-0333-432b-b5cf-47aef5c13297"
-					(reference "R336")
+					(reference "R104")
 					(unit 1)
 				)
 			)
@@ -4704,7 +4751,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "18409c3b-1a2c-484d-99ff-bd69d7d36113")
-		(property "Reference" "R87"
+		(property "Reference" "R38"
 			(at 226.695 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4789,35 +4836,35 @@
 		(instances
 			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/022a79db-e54f-40f1-837e-3e9c2ae67292"
-					(reference "R87")
+					(reference "R38")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/21b47b88-cc1a-402a-a5e9-9cb496162117"
-					(reference "R398")
-					(unit 1)
-				)
-				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/2f978675-bbdf-4eaf-b35d-808525022f03"
-					(reference "R396")
-					(unit 1)
-				)
-				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/3936bb27-8b8a-46a9-b080-3a79d9ab5741"
-					(reference "R394")
-					(unit 1)
-				)
-				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/abda6490-951e-4b79-8373-76689447ea38"
 					(reference "R171")
 					(unit 1)
 				)
+				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/2f978675-bbdf-4eaf-b35d-808525022f03"
+					(reference "R95")
+					(unit 1)
+				)
+				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/3936bb27-8b8a-46a9-b080-3a79d9ab5741"
+					(reference "R133")
+					(unit 1)
+				)
+				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/abda6490-951e-4b79-8373-76689447ea38"
+					(reference "R57")
+					(unit 1)
+				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/aef0a07c-685c-45ab-b53b-cda5a5d0a078"
-					(reference "R395")
+					(reference "R76")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/b3b9e0cb-f494-4399-8e6c-552ef93f033b"
-					(reference "R397")
+					(reference "R152")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/d017f267-0333-432b-b5cf-47aef5c13297"
-					(reference "R393")
+					(reference "R114")
 					(unit 1)
 				)
 			)
@@ -4834,7 +4881,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1f0a5e12-c4fc-4c27-ad64-9043649f55d4")
-		(property "Reference" "C23"
+		(property "Reference" "C30"
 			(at 211.582 78.232 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4898,35 +4945,35 @@
 		(instances
 			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/022a79db-e54f-40f1-837e-3e9c2ae67292"
-					(reference "C23")
+					(reference "C30")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/21b47b88-cc1a-402a-a5e9-9cb496162117"
-					(reference "C145")
+					(reference "C72")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/2f978675-bbdf-4eaf-b35d-808525022f03"
-					(reference "C147")
+					(reference "C48")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/3936bb27-8b8a-46a9-b080-3a79d9ab5741"
-					(reference "C143")
+					(reference "C60")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/abda6490-951e-4b79-8373-76689447ea38"
-					(reference "C47")
+					(reference "C36")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/aef0a07c-685c-45ab-b53b-cda5a5d0a078"
-					(reference "C146")
+					(reference "C42")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/b3b9e0cb-f494-4399-8e6c-552ef93f033b"
-					(reference "C144")
+					(reference "C66")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/d017f267-0333-432b-b5cf-47aef5c13297"
-					(reference "C142")
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -4943,7 +4990,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "259f9aa3-842f-4085-9e27-0482924bbb5d")
-		(property "Reference" "#PWR0157"
+		(property "Reference" "#PWR0106"
 			(at 210.82 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -5003,35 +5050,35 @@
 		(instances
 			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/022a79db-e54f-40f1-837e-3e9c2ae67292"
-					(reference "#PWR0157")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/21b47b88-cc1a-402a-a5e9-9cb496162117"
-					(reference "#PWR0221")
+					(reference "#PWR0197")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/2f978675-bbdf-4eaf-b35d-808525022f03"
-					(reference "#PWR0217")
+					(reference "#PWR0145")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/3936bb27-8b8a-46a9-b080-3a79d9ab5741"
-					(reference "#PWR0219")
+					(reference "#PWR0171")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/abda6490-951e-4b79-8373-76689447ea38"
-					(reference "#PWR0181")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/aef0a07c-685c-45ab-b53b-cda5a5d0a078"
-					(reference "#PWR0218")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/b3b9e0cb-f494-4399-8e6c-552ef93f033b"
-					(reference "#PWR0222")
+					(reference "#PWR0184")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/d017f267-0333-432b-b5cf-47aef5c13297"
-					(reference "#PWR0220")
+					(reference "#PWR0158")
 					(unit 1)
 				)
 			)
@@ -5048,7 +5095,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "30d445b4-5967-4864-ad0a-af542b57f5e2")
-		(property "Reference" "TP37"
+		(property "Reference" "TP24"
 			(at 198.12 108.204 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5120,35 +5167,35 @@
 		(instances
 			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/022a79db-e54f-40f1-837e-3e9c2ae67292"
-					(reference "TP37")
+					(reference "TP24")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/21b47b88-cc1a-402a-a5e9-9cb496162117"
-					(reference "TP88")
+					(reference "TP45")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/2f978675-bbdf-4eaf-b35d-808525022f03"
-					(reference "TP84")
+					(reference "TP33")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/3936bb27-8b8a-46a9-b080-3a79d9ab5741"
-					(reference "TP85")
+					(reference "TP39")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/abda6490-951e-4b79-8373-76689447ea38"
-					(reference "TP82")
+					(reference "TP27")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/aef0a07c-685c-45ab-b53b-cda5a5d0a078"
-					(reference "TP83")
+					(reference "TP30")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/b3b9e0cb-f494-4399-8e6c-552ef93f033b"
-					(reference "TP87")
+					(reference "TP42")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/d017f267-0333-432b-b5cf-47aef5c13297"
-					(reference "TP86")
+					(reference "TP36")
 					(unit 1)
 				)
 			)
@@ -5165,7 +5212,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "39606cbe-c57f-4eac-827b-46f8b854a4ff")
-		(property "Reference" "R70"
+		(property "Reference" "R30"
 			(at 147.32 58.674 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5227,35 +5274,35 @@
 		(instances
 			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/022a79db-e54f-40f1-837e-3e9c2ae67292"
-					(reference "R70")
+					(reference "R30")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/21b47b88-cc1a-402a-a5e9-9cb496162117"
-					(reference "R373")
+					(reference "R163")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/2f978675-bbdf-4eaf-b35d-808525022f03"
-					(reference "R371")
+					(reference "R87")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/3936bb27-8b8a-46a9-b080-3a79d9ab5741"
-					(reference "R370")
+					(reference "R125")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/abda6490-951e-4b79-8373-76689447ea38"
-					(reference "R137")
+					(reference "R49")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/aef0a07c-685c-45ab-b53b-cda5a5d0a078"
-					(reference "R369")
+					(reference "R68")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/b3b9e0cb-f494-4399-8e6c-552ef93f033b"
-					(reference "R374")
+					(reference "R144")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/d017f267-0333-432b-b5cf-47aef5c13297"
-					(reference "R372")
+					(reference "R106")
 					(unit 1)
 				)
 			)
@@ -5272,7 +5319,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d639eee-fdba-46d0-aa55-2d5a7e642df8")
-		(property "Reference" "#PWR0164"
+		(property "Reference" "#PWR0102"
 			(at 234.95 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -5332,35 +5379,35 @@
 		(instances
 			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/022a79db-e54f-40f1-837e-3e9c2ae67292"
-					(reference "#PWR0164")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/21b47b88-cc1a-402a-a5e9-9cb496162117"
-					(reference "#PWR0229")
+					(reference "#PWR0193")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/2f978675-bbdf-4eaf-b35d-808525022f03"
-					(reference "#PWR0227")
+					(reference "#PWR0141")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/3936bb27-8b8a-46a9-b080-3a79d9ab5741"
-					(reference "#PWR0225")
+					(reference "#PWR0167")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/abda6490-951e-4b79-8373-76689447ea38"
-					(reference "#PWR0228")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/aef0a07c-685c-45ab-b53b-cda5a5d0a078"
-					(reference "#PWR0226")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/b3b9e0cb-f494-4399-8e6c-552ef93f033b"
-					(reference "#PWR0230")
+					(reference "#PWR0180")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/d017f267-0333-432b-b5cf-47aef5c13297"
-					(reference "#PWR0224")
+					(reference "#PWR0154")
 					(unit 1)
 				)
 			)
@@ -5377,7 +5424,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3fcac8a7-f307-4ccc-95a9-92e070acea22")
-		(property "Reference" "U11"
+		(property "Reference" "U5"
 			(at 212.344 90.424 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5468,35 +5515,35 @@
 		(instances
 			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/022a79db-e54f-40f1-837e-3e9c2ae67292"
-					(reference "U11")
+					(reference "U5")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/21b47b88-cc1a-402a-a5e9-9cb496162117"
-					(reference "U51")
+					(reference "U19")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/2f978675-bbdf-4eaf-b35d-808525022f03"
-					(reference "U47")
+					(reference "U11")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/3936bb27-8b8a-46a9-b080-3a79d9ab5741"
-					(reference "U49")
+					(reference "U15")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/abda6490-951e-4b79-8373-76689447ea38"
-					(reference "U45")
+					(reference "U7")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/aef0a07c-685c-45ab-b53b-cda5a5d0a078"
-					(reference "U46")
+					(reference "U9")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/b3b9e0cb-f494-4399-8e6c-552ef93f033b"
-					(reference "U50")
+					(reference "U17")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/d017f267-0333-432b-b5cf-47aef5c13297"
-					(reference "U48")
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -5513,7 +5560,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "481f21a5-2435-4de9-ab4f-8fd1ff8af63a")
-		(property "Reference" "R66"
+		(property "Reference" "R31"
 			(at 122.936 65.532 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5585,35 +5632,35 @@
 		(instances
 			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/022a79db-e54f-40f1-837e-3e9c2ae67292"
-					(reference "R66")
+					(reference "R31")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/21b47b88-cc1a-402a-a5e9-9cb496162117"
-					(reference "R352")
+					(reference "R164")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/2f978675-bbdf-4eaf-b35d-808525022f03"
-					(reference "R351")
+					(reference "R88")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/3936bb27-8b8a-46a9-b080-3a79d9ab5741"
-					(reference "R354")
+					(reference "R126")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/abda6490-951e-4b79-8373-76689447ea38"
-					(reference "R121")
+					(reference "R50")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/aef0a07c-685c-45ab-b53b-cda5a5d0a078"
-					(reference "R355")
+					(reference "R69")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/b3b9e0cb-f494-4399-8e6c-552ef93f033b"
-					(reference "R356")
+					(reference "R145")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/d017f267-0333-432b-b5cf-47aef5c13297"
-					(reference "R353")
+					(reference "R107")
 					(unit 1)
 				)
 			)
@@ -5630,7 +5677,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4bf82355-be5b-4231-8a7e-0fc242f14592")
-		(property "Reference" "#PWR0158"
+		(property "Reference" "#PWR0101"
 			(at 222.25 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -5690,35 +5737,35 @@
 		(instances
 			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/022a79db-e54f-40f1-837e-3e9c2ae67292"
-					(reference "#PWR0158")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/21b47b88-cc1a-402a-a5e9-9cb496162117"
-					(reference "#PWR0448")
+					(reference "#PWR0192")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/2f978675-bbdf-4eaf-b35d-808525022f03"
-					(reference "#PWR0446")
+					(reference "#PWR0140")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/3936bb27-8b8a-46a9-b080-3a79d9ab5741"
-					(reference "#PWR0444")
+					(reference "#PWR0166")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/abda6490-951e-4b79-8373-76689447ea38"
-					(reference "#PWR0223")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/aef0a07c-685c-45ab-b53b-cda5a5d0a078"
-					(reference "#PWR0447")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/b3b9e0cb-f494-4399-8e6c-552ef93f033b"
-					(reference "#PWR0449")
+					(reference "#PWR0179")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/d017f267-0333-432b-b5cf-47aef5c13297"
-					(reference "#PWR0445")
+					(reference "#PWR0153")
 					(unit 1)
 				)
 			)
@@ -5735,7 +5782,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "549f260a-18d4-4c70-8fe0-d9b76d3ac83a")
-		(property "Reference" "#PWR0141"
+		(property "Reference" "#PWR0104"
 			(at 181.61 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -5795,35 +5842,35 @@
 		(instances
 			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/022a79db-e54f-40f1-837e-3e9c2ae67292"
-					(reference "#PWR0141")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/21b47b88-cc1a-402a-a5e9-9cb496162117"
-					(reference "#PWR0431")
+					(reference "#PWR0195")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/2f978675-bbdf-4eaf-b35d-808525022f03"
-					(reference "#PWR0429")
+					(reference "#PWR0143")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/3936bb27-8b8a-46a9-b080-3a79d9ab5741"
-					(reference "#PWR0428")
+					(reference "#PWR0169")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/abda6490-951e-4b79-8373-76689447ea38"
-					(reference "#PWR0178")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/aef0a07c-685c-45ab-b53b-cda5a5d0a078"
-					(reference "#PWR0426")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/b3b9e0cb-f494-4399-8e6c-552ef93f033b"
-					(reference "#PWR0430")
+					(reference "#PWR0182")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/d017f267-0333-432b-b5cf-47aef5c13297"
-					(reference "#PWR0427")
+					(reference "#PWR0156")
 					(unit 1)
 				)
 			)
@@ -5840,7 +5887,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5b7443cd-ca4b-49e4-b56c-a398ce9b87ae")
-		(property "Reference" "C22"
+		(property "Reference" "C34"
 			(at 168.656 104.648 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5914,19 +5961,19 @@
 		(instances
 			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/022a79db-e54f-40f1-837e-3e9c2ae67292"
-					(reference "C22")
+					(reference "C34")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/21b47b88-cc1a-402a-a5e9-9cb496162117"
-					(reference "C138")
+					(reference "C76")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/2f978675-bbdf-4eaf-b35d-808525022f03"
-					(reference "C136")
+					(reference "C52")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/3936bb27-8b8a-46a9-b080-3a79d9ab5741"
-					(reference "C140")
+					(reference "C64")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/abda6490-951e-4b79-8373-76689447ea38"
@@ -5934,15 +5981,15 @@
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/aef0a07c-685c-45ab-b53b-cda5a5d0a078"
-					(reference "C137")
+					(reference "C46")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/b3b9e0cb-f494-4399-8e6c-552ef93f033b"
-					(reference "C139")
+					(reference "C70")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/d017f267-0333-432b-b5cf-47aef5c13297"
-					(reference "C141")
+					(reference "C58")
 					(unit 1)
 				)
 			)
@@ -5959,7 +6006,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "669448b3-544a-4637-9f18-99ba7ec46644")
-		(property "Reference" "#PWR0156"
+		(property "Reference" "#PWR096"
 			(at 210.82 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -6018,35 +6065,35 @@
 		(instances
 			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/022a79db-e54f-40f1-837e-3e9c2ae67292"
-					(reference "#PWR0156")
+					(reference "#PWR096")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/21b47b88-cc1a-402a-a5e9-9cb496162117"
-					(reference "#PWR0443")
+					(reference "#PWR0187")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/2f978675-bbdf-4eaf-b35d-808525022f03"
-					(reference "#PWR0438")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/3936bb27-8b8a-46a9-b080-3a79d9ab5741"
-					(reference "#PWR0439")
+					(reference "#PWR0161")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/abda6490-951e-4b79-8373-76689447ea38"
-					(reference "#PWR0180")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/aef0a07c-685c-45ab-b53b-cda5a5d0a078"
-					(reference "#PWR0440")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/b3b9e0cb-f494-4399-8e6c-552ef93f033b"
-					(reference "#PWR0442")
+					(reference "#PWR0174")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/d017f267-0333-432b-b5cf-47aef5c13297"
-					(reference "#PWR0441")
+					(reference "#PWR0148")
 					(unit 1)
 				)
 			)
@@ -6063,7 +6110,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "66b305ef-6850-44c6-a7b2-36d9070a3613")
-		(property "Reference" "R67"
+		(property "Reference" "R32"
 			(at 140.97 63.754 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6125,35 +6172,35 @@
 		(instances
 			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/022a79db-e54f-40f1-837e-3e9c2ae67292"
-					(reference "R67")
+					(reference "R32")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/21b47b88-cc1a-402a-a5e9-9cb496162117"
-					(reference "R362")
+					(reference "R165")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/2f978675-bbdf-4eaf-b35d-808525022f03"
-					(reference "R359")
+					(reference "R89")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/3936bb27-8b8a-46a9-b080-3a79d9ab5741"
-					(reference "R360")
+					(reference "R127")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/abda6490-951e-4b79-8373-76689447ea38"
-					(reference "R133")
+					(reference "R51")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/aef0a07c-685c-45ab-b53b-cda5a5d0a078"
-					(reference "R357")
+					(reference "R70")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/b3b9e0cb-f494-4399-8e6c-552ef93f033b"
-					(reference "R361")
+					(reference "R146")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/d017f267-0333-432b-b5cf-47aef5c13297"
-					(reference "R358")
+					(reference "R108")
 					(unit 1)
 				)
 			)
@@ -6170,7 +6217,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "73aa7dea-2f16-408a-96c9-64003b575588")
-		(property "Reference" "#PWR0139"
+		(property "Reference" "#PWR0103"
 			(at 166.37 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -6230,35 +6277,35 @@
 		(instances
 			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/022a79db-e54f-40f1-837e-3e9c2ae67292"
-					(reference "#PWR0139")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/21b47b88-cc1a-402a-a5e9-9cb496162117"
-					(reference "#PWR0418")
+					(reference "#PWR0194")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/2f978675-bbdf-4eaf-b35d-808525022f03"
-					(reference "#PWR0339")
+					(reference "#PWR0142")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/3936bb27-8b8a-46a9-b080-3a79d9ab5741"
-					(reference "#PWR0416")
+					(reference "#PWR0168")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/abda6490-951e-4b79-8373-76689447ea38"
-					(reference "#PWR0150")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/aef0a07c-685c-45ab-b53b-cda5a5d0a078"
-					(reference "#PWR0417")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/b3b9e0cb-f494-4399-8e6c-552ef93f033b"
-					(reference "#PWR0419")
+					(reference "#PWR0181")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/d017f267-0333-432b-b5cf-47aef5c13297"
-					(reference "#PWR0415")
+					(reference "#PWR0155")
 					(unit 1)
 				)
 			)
@@ -6275,7 +6322,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "76e4e6d4-6bc0-44d2-b4ae-9d09cb1db164")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "#PWR0100"
 			(at 67.31 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6335,35 +6382,35 @@
 		(instances
 			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/022a79db-e54f-40f1-837e-3e9c2ae67292"
-					(reference "#PWR0127")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/21b47b88-cc1a-402a-a5e9-9cb496162117"
-					(reference "#PWR0210")
+					(reference "#PWR0191")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/2f978675-bbdf-4eaf-b35d-808525022f03"
-					(reference "#PWR0196")
+					(reference "#PWR0139")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/3936bb27-8b8a-46a9-b080-3a79d9ab5741"
-					(reference "#PWR0199")
+					(reference "#PWR0165")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/abda6490-951e-4b79-8373-76689447ea38"
-					(reference "#PWR0128")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/aef0a07c-685c-45ab-b53b-cda5a5d0a078"
-					(reference "#PWR0200")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/b3b9e0cb-f494-4399-8e6c-552ef93f033b"
-					(reference "#PWR0211")
+					(reference "#PWR0178")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/d017f267-0333-432b-b5cf-47aef5c13297"
-					(reference "#PWR0197")
+					(reference "#PWR0152")
 					(unit 1)
 				)
 			)
@@ -6380,7 +6427,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7891b489-8598-46ae-af6e-0080dbb1e769")
-		(property "Reference" "C27"
+		(property "Reference" "C33"
 			(at 237.236 100.838 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6444,35 +6491,35 @@
 		(instances
 			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/022a79db-e54f-40f1-837e-3e9c2ae67292"
-					(reference "C27")
+					(reference "C33")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/21b47b88-cc1a-402a-a5e9-9cb496162117"
-					(reference "C158")
+					(reference "C75")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/2f978675-bbdf-4eaf-b35d-808525022f03"
-					(reference "C154")
+					(reference "C51")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/3936bb27-8b8a-46a9-b080-3a79d9ab5741"
-					(reference "C156")
+					(reference "C63")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/abda6490-951e-4b79-8373-76689447ea38"
-					(reference "C61")
+					(reference "C39")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/aef0a07c-685c-45ab-b53b-cda5a5d0a078"
-					(reference "C155")
+					(reference "C45")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/b3b9e0cb-f494-4399-8e6c-552ef93f033b"
-					(reference "C159")
+					(reference "C69")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/d017f267-0333-432b-b5cf-47aef5c13297"
-					(reference "C157")
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -6489,7 +6536,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "798019bc-7a08-475f-afda-0c737cdf1910")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR0107"
 			(at 113.03 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -6549,35 +6596,35 @@
 		(instances
 			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/022a79db-e54f-40f1-837e-3e9c2ae67292"
-					(reference "#PWR0138")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/21b47b88-cc1a-402a-a5e9-9cb496162117"
-					(reference "#PWR0413")
+					(reference "#PWR0198")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/2f978675-bbdf-4eaf-b35d-808525022f03"
-					(reference "#PWR0338")
+					(reference "#PWR0146")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/3936bb27-8b8a-46a9-b080-3a79d9ab5741"
-					(reference "#PWR0414")
+					(reference "#PWR0172")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/abda6490-951e-4b79-8373-76689447ea38"
-					(reference "#PWR0149")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/aef0a07c-685c-45ab-b53b-cda5a5d0a078"
-					(reference "#PWR0327")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/b3b9e0cb-f494-4399-8e6c-552ef93f033b"
-					(reference "#PWR0411")
+					(reference "#PWR0185")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/d017f267-0333-432b-b5cf-47aef5c13297"
-					(reference "#PWR0412")
+					(reference "#PWR0159")
 					(unit 1)
 				)
 			)
@@ -6594,7 +6641,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7d603f24-8828-4f0b-b61e-2b75c67d6e4c")
-		(property "Reference" "C21"
+		(property "Reference" "C32"
 			(at 168.656 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6668,35 +6715,35 @@
 		(instances
 			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/022a79db-e54f-40f1-837e-3e9c2ae67292"
-					(reference "C21")
+					(reference "C32")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/21b47b88-cc1a-402a-a5e9-9cb496162117"
-					(reference "C133")
+					(reference "C74")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/2f978675-bbdf-4eaf-b35d-808525022f03"
-					(reference "C135")
+					(reference "C50")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/3936bb27-8b8a-46a9-b080-3a79d9ab5741"
-					(reference "C131")
+					(reference "C62")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/abda6490-951e-4b79-8373-76689447ea38"
-					(reference "C33")
+					(reference "C38")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/aef0a07c-685c-45ab-b53b-cda5a5d0a078"
-					(reference "C134")
+					(reference "C44")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/b3b9e0cb-f494-4399-8e6c-552ef93f033b"
-					(reference "C132")
+					(reference "C68")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/d017f267-0333-432b-b5cf-47aef5c13297"
-					(reference "C130")
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -6713,7 +6760,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "84d05de7-fd5b-47db-955b-641e94f2482f")
-		(property "Reference" "R65"
+		(property "Reference" "R42"
 			(at 111.506 112.522 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6775,35 +6822,35 @@
 		(instances
 			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/022a79db-e54f-40f1-837e-3e9c2ae67292"
-					(reference "R65")
+					(reference "R42")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/21b47b88-cc1a-402a-a5e9-9cb496162117"
-					(reference "R346")
+					(reference "R175")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/2f978675-bbdf-4eaf-b35d-808525022f03"
-					(reference "R345")
+					(reference "R99")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/3936bb27-8b8a-46a9-b080-3a79d9ab5741"
-					(reference "R350")
+					(reference "R137")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/abda6490-951e-4b79-8373-76689447ea38"
-					(reference "R120")
+					(reference "R61")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/aef0a07c-685c-45ab-b53b-cda5a5d0a078"
-					(reference "R348")
+					(reference "R80")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/b3b9e0cb-f494-4399-8e6c-552ef93f033b"
-					(reference "R347")
+					(reference "R156")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/d017f267-0333-432b-b5cf-47aef5c13297"
-					(reference "R349")
+					(reference "R118")
 					(unit 1)
 				)
 			)
@@ -6820,7 +6867,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "919eecfa-9ce9-4f02-aa04-e5f476620337")
-		(property "Reference" "#PWR0129"
+		(property "Reference" "#PWR0108"
 			(at 81.28 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -6880,35 +6927,35 @@
 		(instances
 			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/022a79db-e54f-40f1-837e-3e9c2ae67292"
-					(reference "#PWR0129")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/21b47b88-cc1a-402a-a5e9-9cb496162117"
-					(reference "#PWR0137")
+					(reference "#PWR0199")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/2f978675-bbdf-4eaf-b35d-808525022f03"
-					(reference "#PWR0132")
+					(reference "#PWR0147")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/3936bb27-8b8a-46a9-b080-3a79d9ab5741"
-					(reference "#PWR0135")
+					(reference "#PWR0173")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/abda6490-951e-4b79-8373-76689447ea38"
-					(reference "#PWR0130")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/aef0a07c-685c-45ab-b53b-cda5a5d0a078"
-					(reference "#PWR0131")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/b3b9e0cb-f494-4399-8e6c-552ef93f033b"
-					(reference "#PWR0136")
+					(reference "#PWR0186")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/d017f267-0333-432b-b5cf-47aef5c13297"
-					(reference "#PWR0133")
+					(reference "#PWR0160")
 					(unit 1)
 				)
 			)
@@ -6926,7 +6973,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "972ed6bc-b922-42b0-9fe5-9c1125d75dd4")
-		(property "Reference" "R57"
+		(property "Reference" "R45"
 			(at 79.756 124.968 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7000,35 +7047,35 @@
 		(instances
 			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/022a79db-e54f-40f1-837e-3e9c2ae67292"
-					(reference "R57")
+					(reference "R45")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/21b47b88-cc1a-402a-a5e9-9cb496162117"
-					(reference "R320")
+					(reference "R178")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/2f978675-bbdf-4eaf-b35d-808525022f03"
-					(reference "R317")
+					(reference "R102")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/3936bb27-8b8a-46a9-b080-3a79d9ab5741"
-					(reference "R318")
+					(reference "R140")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/abda6490-951e-4b79-8373-76689447ea38"
-					(reference "R112")
+					(reference "R64")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/aef0a07c-685c-45ab-b53b-cda5a5d0a078"
-					(reference "R316")
+					(reference "R83")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/b3b9e0cb-f494-4399-8e6c-552ef93f033b"
-					(reference "R321")
+					(reference "R159")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/d017f267-0333-432b-b5cf-47aef5c13297"
-					(reference "R319")
+					(reference "R121")
 					(unit 1)
 				)
 			)
@@ -7045,7 +7092,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "983d7a7a-068d-464f-bec2-0730be449426")
-		(property "Reference" "R77"
+		(property "Reference" "R40"
 			(at 180.086 106.172 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7107,35 +7154,35 @@
 		(instances
 			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/022a79db-e54f-40f1-837e-3e9c2ae67292"
-					(reference "R77")
+					(reference "R40")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/21b47b88-cc1a-402a-a5e9-9cb496162117"
-					(reference "R386")
+					(reference "R173")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/2f978675-bbdf-4eaf-b35d-808525022f03"
-					(reference "R384")
+					(reference "R97")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/3936bb27-8b8a-46a9-b080-3a79d9ab5741"
-					(reference "R382")
+					(reference "R135")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/abda6490-951e-4b79-8373-76689447ea38"
-					(reference "R143")
+					(reference "R59")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/aef0a07c-685c-45ab-b53b-cda5a5d0a078"
-					(reference "R385")
+					(reference "R78")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/b3b9e0cb-f494-4399-8e6c-552ef93f033b"
-					(reference "R381")
+					(reference "R154")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/d017f267-0333-432b-b5cf-47aef5c13297"
-					(reference "R383")
+					(reference "R116")
 					(unit 1)
 				)
 			)
@@ -7152,7 +7199,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "9c325bf8-1867-435f-bdb4-9198d5f99fa5")
-		(property "Reference" "R78"
+		(property "Reference" "R37"
 			(at 196.596 98.552 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7214,35 +7261,35 @@
 		(instances
 			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/022a79db-e54f-40f1-837e-3e9c2ae67292"
-					(reference "R78")
+					(reference "R37")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/21b47b88-cc1a-402a-a5e9-9cb496162117"
-					(reference "R392")
+					(reference "R170")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/2f978675-bbdf-4eaf-b35d-808525022f03"
-					(reference "R388")
+					(reference "R94")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/3936bb27-8b8a-46a9-b080-3a79d9ab5741"
-					(reference "R391")
+					(reference "R132")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/abda6490-951e-4b79-8373-76689447ea38"
-					(reference "R145")
+					(reference "R56")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/aef0a07c-685c-45ab-b53b-cda5a5d0a078"
-					(reference "R387")
+					(reference "R75")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/b3b9e0cb-f494-4399-8e6c-552ef93f033b"
-					(reference "R389")
+					(reference "R151")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/d017f267-0333-432b-b5cf-47aef5c13297"
-					(reference "R390")
+					(reference "R113")
 					(unit 1)
 				)
 			)
@@ -7259,7 +7306,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ecb80af-9c04-4a54-97b8-6295bdc91b20")
-		(property "Reference" "U10"
+		(property "Reference" "U4"
 			(at 147.32 51.562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7355,35 +7402,35 @@
 		(instances
 			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/022a79db-e54f-40f1-837e-3e9c2ae67292"
-					(reference "U10")
+					(reference "U4")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/21b47b88-cc1a-402a-a5e9-9cb496162117"
-					(reference "U44")
+					(reference "U18")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/2f978675-bbdf-4eaf-b35d-808525022f03"
-					(reference "U41")
+					(reference "U10")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/3936bb27-8b8a-46a9-b080-3a79d9ab5741"
-					(reference "U42")
+					(reference "U14")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/abda6490-951e-4b79-8373-76689447ea38"
-					(reference "U39")
+					(reference "U6")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/aef0a07c-685c-45ab-b53b-cda5a5d0a078"
-					(reference "U40")
+					(reference "U8")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/b3b9e0cb-f494-4399-8e6c-552ef93f033b"
-					(reference "U43")
+					(reference "U16")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/d017f267-0333-432b-b5cf-47aef5c13297"
-					(reference "U38")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -7400,7 +7447,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a05cb71a-7e9b-49cb-949d-e570a482d8e0")
-		(property "Reference" "C20"
+		(property "Reference" "C31"
 			(at 168.656 89.408 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7474,35 +7521,35 @@
 		(instances
 			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/022a79db-e54f-40f1-837e-3e9c2ae67292"
-					(reference "C20")
+					(reference "C31")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/21b47b88-cc1a-402a-a5e9-9cb496162117"
-					(reference "C127")
+					(reference "C73")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/2f978675-bbdf-4eaf-b35d-808525022f03"
-					(reference "C129")
+					(reference "C49")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/3936bb27-8b8a-46a9-b080-3a79d9ab5741"
-					(reference "C125")
+					(reference "C61")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/abda6490-951e-4b79-8373-76689447ea38"
-					(reference "C26")
+					(reference "C37")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/aef0a07c-685c-45ab-b53b-cda5a5d0a078"
-					(reference "C128")
+					(reference "C43")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/b3b9e0cb-f494-4399-8e6c-552ef93f033b"
-					(reference "C126")
+					(reference "C67")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/d017f267-0333-432b-b5cf-47aef5c13297"
-					(reference "C124")
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -7519,7 +7566,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a0879364-a759-42af-9c67-7231eed5731d")
-		(property "Reference" "R82"
+		(property "Reference" "R39"
 			(at 149.86 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7581,35 +7628,142 @@
 		(instances
 			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/022a79db-e54f-40f1-837e-3e9c2ae67292"
-					(reference "R82")
+					(reference "R39")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/21b47b88-cc1a-402a-a5e9-9cb496162117"
-					(reference "R170")
+					(reference "R172")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/2f978675-bbdf-4eaf-b35d-808525022f03"
-					(reference "R158")
+					(reference "R96")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/3936bb27-8b8a-46a9-b080-3a79d9ab5741"
-					(reference "R163")
+					(reference "R134")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/abda6490-951e-4b79-8373-76689447ea38"
-					(reference "R141")
+					(reference "R58")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/aef0a07c-685c-45ab-b53b-cda5a5d0a078"
-					(reference "R159")
+					(reference "R77")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/b3b9e0cb-f494-4399-8e6c-552ef93f033b"
-					(reference "R182")
+					(reference "R153")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/d017f267-0333-432b-b5cf-47aef5c13297"
-					(reference "R162")
+					(reference "R115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 118.11 39.37 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "a56398e8-82fa-4899-85c2-b5888ea036b2")
+		(property "Reference" "R182"
+			(at 116.586 39.37 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 118.11 39.37 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 118.11 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 118.11 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "71bc9eec-6089-455c-937e-21cab4bd4a15")
+		)
+		(pin "2"
+			(uuid "7cb98d08-eece-49b8-be78-0600c1bc468c")
+		)
+		(instances
+			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
+				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/022a79db-e54f-40f1-837e-3e9c2ae67292"
+					(reference "R182")
+					(unit 1)
+				)
+				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/21b47b88-cc1a-402a-a5e9-9cb496162117"
+					(reference "R189")
+					(unit 1)
+				)
+				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/2f978675-bbdf-4eaf-b35d-808525022f03"
+					(reference "R185")
+					(unit 1)
+				)
+				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/3936bb27-8b8a-46a9-b080-3a79d9ab5741"
+					(reference "R187")
+					(unit 1)
+				)
+				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/abda6490-951e-4b79-8373-76689447ea38"
+					(reference "R183")
+					(unit 1)
+				)
+				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/aef0a07c-685c-45ab-b53b-cda5a5d0a078"
+					(reference "R184")
+					(unit 1)
+				)
+				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/b3b9e0cb-f494-4399-8e6c-552ef93f033b"
+					(reference "R188")
+					(unit 1)
+				)
+				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/d017f267-0333-432b-b5cf-47aef5c13297"
+					(reference "R186")
 					(unit 1)
 				)
 			)
@@ -7626,7 +7780,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aab1f99d-52bd-4658-95ff-40e45acd9983")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR0105"
 			(at 60.96 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -7686,35 +7840,35 @@
 		(instances
 			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/022a79db-e54f-40f1-837e-3e9c2ae67292"
-					(reference "#PWR0120")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/21b47b88-cc1a-402a-a5e9-9cb496162117"
-					(reference "#PWR0317")
+					(reference "#PWR0196")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/2f978675-bbdf-4eaf-b35d-808525022f03"
-					(reference "#PWR0322")
+					(reference "#PWR0144")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/3936bb27-8b8a-46a9-b080-3a79d9ab5741"
-					(reference "#PWR0321")
+					(reference "#PWR0170")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/abda6490-951e-4b79-8373-76689447ea38"
-					(reference "#PWR0121")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/aef0a07c-685c-45ab-b53b-cda5a5d0a078"
-					(reference "#PWR0318")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/b3b9e0cb-f494-4399-8e6c-552ef93f033b"
-					(reference "#PWR0320")
+					(reference "#PWR0183")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/d017f267-0333-432b-b5cf-47aef5c13297"
-					(reference "#PWR0319")
+					(reference "#PWR0157")
 					(unit 1)
 				)
 			)
@@ -7732,7 +7886,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "afd19343-67d0-4f6a-b5dd-6f6d03ede488")
-		(property "Reference" "TP36"
+		(property "Reference" "TP22"
 			(at 193.548 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7804,35 +7958,35 @@
 		(instances
 			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/022a79db-e54f-40f1-837e-3e9c2ae67292"
-					(reference "TP36")
+					(reference "TP22")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/21b47b88-cc1a-402a-a5e9-9cb496162117"
-					(reference "TP76")
+					(reference "TP43")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/2f978675-bbdf-4eaf-b35d-808525022f03"
-					(reference "TP81")
+					(reference "TP31")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/3936bb27-8b8a-46a9-b080-3a79d9ab5741"
-					(reference "TP78")
+					(reference "TP37")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/abda6490-951e-4b79-8373-76689447ea38"
-					(reference "TP77")
+					(reference "TP25")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/aef0a07c-685c-45ab-b53b-cda5a5d0a078"
-					(reference "TP80")
+					(reference "TP28")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/b3b9e0cb-f494-4399-8e6c-552ef93f033b"
-					(reference "TP75")
+					(reference "TP40")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/d017f267-0333-432b-b5cf-47aef5c13297"
-					(reference "TP79")
+					(reference "TP34")
 					(unit 1)
 				)
 			)
@@ -7849,7 +8003,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "b7540dfd-6b3f-4625-86d5-66d5c0259ffc")
-		(property "Reference" "R61"
+		(property "Reference" "R44"
 			(at 87.63 122.936 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7911,7 +8065,7 @@
 		(instances
 			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/022a79db-e54f-40f1-837e-3e9c2ae67292"
-					(reference "R61")
+					(reference "R44")
 					(unit 1)
 					(variant
 						(name "Default")
@@ -7919,19 +8073,19 @@
 					)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/21b47b88-cc1a-402a-a5e9-9cb496162117"
-					(reference "R327")
+					(reference "R177")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/2f978675-bbdf-4eaf-b35d-808525022f03"
-					(reference "R322")
+					(reference "R101")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/3936bb27-8b8a-46a9-b080-3a79d9ab5741"
-					(reference "R325")
+					(reference "R139")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/abda6490-951e-4b79-8373-76689447ea38"
-					(reference "R113")
+					(reference "R63")
 					(unit 1)
 					(variant
 						(name "Default")
@@ -7939,15 +8093,15 @@
 					)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/aef0a07c-685c-45ab-b53b-cda5a5d0a078"
-					(reference "R323")
+					(reference "R82")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/b3b9e0cb-f494-4399-8e6c-552ef93f033b"
-					(reference "R326")
+					(reference "R158")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/d017f267-0333-432b-b5cf-47aef5c13297"
-					(reference "R324")
+					(reference "R120")
 					(unit 1)
 				)
 			)
@@ -7964,7 +8118,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bdc67259-65b9-4efc-8db8-4d5188bb9bd5")
-		(property "Reference" "#PWR0155"
+		(property "Reference" "#PWR098"
 			(at 185.42 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -8024,35 +8178,35 @@
 		(instances
 			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/022a79db-e54f-40f1-837e-3e9c2ae67292"
-					(reference "#PWR0155")
+					(reference "#PWR098")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/21b47b88-cc1a-402a-a5e9-9cb496162117"
-					(reference "#PWR0436")
+					(reference "#PWR0189")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/2f978675-bbdf-4eaf-b35d-808525022f03"
-					(reference "#PWR0432")
+					(reference "#PWR0137")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/3936bb27-8b8a-46a9-b080-3a79d9ab5741"
-					(reference "#PWR0433")
+					(reference "#PWR0163")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/abda6490-951e-4b79-8373-76689447ea38"
-					(reference "#PWR0179")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/aef0a07c-685c-45ab-b53b-cda5a5d0a078"
-					(reference "#PWR0435")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/b3b9e0cb-f494-4399-8e6c-552ef93f033b"
-					(reference "#PWR0437")
+					(reference "#PWR0176")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/d017f267-0333-432b-b5cf-47aef5c13297"
-					(reference "#PWR0434")
+					(reference "#PWR0150")
 					(unit 1)
 				)
 			)
@@ -8069,7 +8223,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c26cc4ac-1ad5-4787-bac8-eea2d03b3e81")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR099"
 			(at 88.9 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -8129,35 +8283,35 @@
 		(instances
 			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/022a79db-e54f-40f1-837e-3e9c2ae67292"
-					(reference "#PWR0134")
+					(reference "#PWR099")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/21b47b88-cc1a-402a-a5e9-9cb496162117"
-					(reference "#PWR0215")
+					(reference "#PWR0190")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/2f978675-bbdf-4eaf-b35d-808525022f03"
-					(reference "#PWR0162")
+					(reference "#PWR0138")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/3936bb27-8b8a-46a9-b080-3a79d9ab5741"
-					(reference "#PWR0201")
+					(reference "#PWR0164")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/abda6490-951e-4b79-8373-76689447ea38"
-					(reference "#PWR0148")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/aef0a07c-685c-45ab-b53b-cda5a5d0a078"
-					(reference "#PWR0153")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/b3b9e0cb-f494-4399-8e6c-552ef93f033b"
-					(reference "#PWR0214")
+					(reference "#PWR0177")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/d017f267-0333-432b-b5cf-47aef5c13297"
-					(reference "#PWR0216")
+					(reference "#PWR0151")
 					(unit 1)
 				)
 			)
@@ -8174,7 +8328,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c457d2f1-04d9-4d31-934b-f2b91d20f89b")
-		(property "Reference" "D3"
+		(property "Reference" "D1"
 			(at 79.248 103.124 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8250,35 +8404,35 @@
 		(instances
 			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/022a79db-e54f-40f1-837e-3e9c2ae67292"
-					(reference "D3")
+					(reference "D1")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/21b47b88-cc1a-402a-a5e9-9cb496162117"
-					(reference "D21")
+					(reference "D8")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/2f978675-bbdf-4eaf-b35d-808525022f03"
-					(reference "D17")
+					(reference "D4")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/3936bb27-8b8a-46a9-b080-3a79d9ab5741"
-					(reference "D19")
+					(reference "D6")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/abda6490-951e-4b79-8373-76689447ea38"
-					(reference "D16")
+					(reference "D2")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/aef0a07c-685c-45ab-b53b-cda5a5d0a078"
-					(reference "D18")
+					(reference "D3")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/b3b9e0cb-f494-4399-8e6c-552ef93f033b"
-					(reference "D22")
+					(reference "D7")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/d017f267-0333-432b-b5cf-47aef5c13297"
-					(reference "D20")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -8295,7 +8449,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c50e12fa-fd63-43f8-a493-607b7cc84814")
-		(property "Reference" "L5"
+		(property "Reference" "L1"
 			(at 97.79 94.234 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8369,35 +8523,35 @@
 		(instances
 			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/022a79db-e54f-40f1-837e-3e9c2ae67292"
-					(reference "L5")
+					(reference "L1")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/21b47b88-cc1a-402a-a5e9-9cb496162117"
-					(reference "L33")
+					(reference "L15")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/2f978675-bbdf-4eaf-b35d-808525022f03"
-					(reference "L35")
+					(reference "L7")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/3936bb27-8b8a-46a9-b080-3a79d9ab5741"
-					(reference "L37")
+					(reference "L11")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/abda6490-951e-4b79-8373-76689447ea38"
-					(reference "L32")
+					(reference "L3")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/aef0a07c-685c-45ab-b53b-cda5a5d0a078"
-					(reference "L34")
+					(reference "L5")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/b3b9e0cb-f494-4399-8e6c-552ef93f033b"
-					(reference "L31")
+					(reference "L13")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/d017f267-0333-432b-b5cf-47aef5c13297"
-					(reference "L36")
+					(reference "L9")
 					(unit 1)
 				)
 			)
@@ -8414,7 +8568,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "cac4c499-804c-4480-84c6-3ac84d735363")
-		(property "Reference" "R68"
+		(property "Reference" "R34"
 			(at 136.906 72.644 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8476,35 +8630,35 @@
 		(instances
 			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/022a79db-e54f-40f1-837e-3e9c2ae67292"
-					(reference "R68")
+					(reference "R34")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/21b47b88-cc1a-402a-a5e9-9cb496162117"
-					(reference "R368")
+					(reference "R167")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/2f978675-bbdf-4eaf-b35d-808525022f03"
-					(reference "R365")
+					(reference "R91")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/3936bb27-8b8a-46a9-b080-3a79d9ab5741"
-					(reference "R363")
+					(reference "R129")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/abda6490-951e-4b79-8373-76689447ea38"
-					(reference "R134")
+					(reference "R53")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/aef0a07c-685c-45ab-b53b-cda5a5d0a078"
-					(reference "R366")
+					(reference "R72")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/b3b9e0cb-f494-4399-8e6c-552ef93f033b"
-					(reference "R367")
+					(reference "R148")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/d017f267-0333-432b-b5cf-47aef5c13297"
-					(reference "R364")
+					(reference "R110")
 					(unit 1)
 				)
 			)
@@ -8521,7 +8675,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d87da711-6d2d-48be-b92f-63ee28c2fd3c")
-		(property "Reference" "R75"
+		(property "Reference" "R36"
 			(at 149.86 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8583,35 +8737,35 @@
 		(instances
 			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/022a79db-e54f-40f1-837e-3e9c2ae67292"
-					(reference "R75")
+					(reference "R36")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/21b47b88-cc1a-402a-a5e9-9cb496162117"
-					(reference "R166")
+					(reference "R169")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/2f978675-bbdf-4eaf-b35d-808525022f03"
-					(reference "R71")
+					(reference "R93")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/3936bb27-8b8a-46a9-b080-3a79d9ab5741"
-					(reference "R74")
+					(reference "R131")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/abda6490-951e-4b79-8373-76689447ea38"
-					(reference "R138")
+					(reference "R55")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/aef0a07c-685c-45ab-b53b-cda5a5d0a078"
-					(reference "R72")
+					(reference "R74")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/b3b9e0cb-f494-4399-8e6c-552ef93f033b"
-					(reference "R167")
+					(reference "R150")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/d017f267-0333-432b-b5cf-47aef5c13297"
-					(reference "R73")
+					(reference "R112")
 					(unit 1)
 				)
 			)
@@ -8628,7 +8782,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "e2ed673b-4153-4ba3-96e5-20a7cfb86f9b")
-		(property "Reference" "R62"
+		(property "Reference" "R27"
 			(at 98.806 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8690,35 +8844,35 @@
 		(instances
 			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/022a79db-e54f-40f1-837e-3e9c2ae67292"
-					(reference "R62")
+					(reference "R27")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/21b47b88-cc1a-402a-a5e9-9cb496162117"
-					(reference "R332")
+					(reference "R160")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/2f978675-bbdf-4eaf-b35d-808525022f03"
-					(reference "R328")
+					(reference "R84")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/3936bb27-8b8a-46a9-b080-3a79d9ab5741"
-					(reference "R330")
+					(reference "R122")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/abda6490-951e-4b79-8373-76689447ea38"
-					(reference "R116")
+					(reference "R46")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/aef0a07c-685c-45ab-b53b-cda5a5d0a078"
-					(reference "R195")
+					(reference "R65")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/b3b9e0cb-f494-4399-8e6c-552ef93f033b"
-					(reference "R331")
+					(reference "R141")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/d017f267-0333-432b-b5cf-47aef5c13297"
-					(reference "R329")
+					(reference "R103")
 					(unit 1)
 				)
 			)
@@ -8735,7 +8889,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "e3140f34-62ff-4257-b625-c96206a9a505")
-		(property "Reference" "R76"
+		(property "Reference" "R35"
 			(at 180.086 90.932 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8797,35 +8951,35 @@
 		(instances
 			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/022a79db-e54f-40f1-837e-3e9c2ae67292"
-					(reference "R76")
+					(reference "R35")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/21b47b88-cc1a-402a-a5e9-9cb496162117"
-					(reference "R377")
+					(reference "R168")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/2f978675-bbdf-4eaf-b35d-808525022f03"
-					(reference "R378")
+					(reference "R92")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/3936bb27-8b8a-46a9-b080-3a79d9ab5741"
-					(reference "R375")
+					(reference "R130")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/abda6490-951e-4b79-8373-76689447ea38"
-					(reference "R142")
+					(reference "R54")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/aef0a07c-685c-45ab-b53b-cda5a5d0a078"
-					(reference "R379")
+					(reference "R73")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/b3b9e0cb-f494-4399-8e6c-552ef93f033b"
-					(reference "R380")
+					(reference "R149")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/d017f267-0333-432b-b5cf-47aef5c13297"
-					(reference "R376")
+					(reference "R111")
 					(unit 1)
 				)
 			)
@@ -8842,7 +8996,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e4c51199-1bec-4760-8e39-ad0845c49abe")
-		(property "Reference" "J4"
+		(property "Reference" "J2"
 			(at 52.324 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8915,35 +9069,35 @@
 		(instances
 			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/022a79db-e54f-40f1-837e-3e9c2ae67292"
-					(reference "J4")
+					(reference "J2")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/21b47b88-cc1a-402a-a5e9-9cb496162117"
-					(reference "J23")
+					(reference "J9")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/2f978675-bbdf-4eaf-b35d-808525022f03"
-					(reference "J19")
+					(reference "J5")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/3936bb27-8b8a-46a9-b080-3a79d9ab5741"
-					(reference "J21")
+					(reference "J7")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/abda6490-951e-4b79-8373-76689447ea38"
-					(reference "J17")
+					(reference "J3")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/aef0a07c-685c-45ab-b53b-cda5a5d0a078"
-					(reference "J18")
+					(reference "J4")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/b3b9e0cb-f494-4399-8e6c-552ef93f033b"
-					(reference "J22")
+					(reference "J8")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/d017f267-0333-432b-b5cf-47aef5c13297"
-					(reference "J20")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -8960,7 +9114,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ea40bc77-e506-41c4-81d5-d850f0109864")
-		(property "Reference" "C24"
+		(property "Reference" "C35"
 			(at 211.836 108.204 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9024,35 +9178,35 @@
 		(instances
 			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/022a79db-e54f-40f1-837e-3e9c2ae67292"
-					(reference "C24")
+					(reference "C35")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/21b47b88-cc1a-402a-a5e9-9cb496162117"
-					(reference "C152")
+					(reference "C77")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/2f978675-bbdf-4eaf-b35d-808525022f03"
-					(reference "C150")
+					(reference "C53")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/3936bb27-8b8a-46a9-b080-3a79d9ab5741"
-					(reference "C148")
+					(reference "C65")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/abda6490-951e-4b79-8373-76689447ea38"
-					(reference "C54")
+					(reference "C41")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/aef0a07c-685c-45ab-b53b-cda5a5d0a078"
-					(reference "C151")
+					(reference "C47")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/b3b9e0cb-f494-4399-8e6c-552ef93f033b"
-					(reference "C153")
+					(reference "C71")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/d017f267-0333-432b-b5cf-47aef5c13297"
-					(reference "C149")
+					(reference "C59")
 					(unit 1)
 				)
 			)
@@ -9069,7 +9223,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "edd53b3a-aa32-4c8b-bfee-3392654d432d")
-		(property "Reference" "R86"
+		(property "Reference" "R33"
 			(at 199.39 68.834 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9131,35 +9285,35 @@
 		(instances
 			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/022a79db-e54f-40f1-837e-3e9c2ae67292"
-					(reference "R86")
+					(reference "R33")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/21b47b88-cc1a-402a-a5e9-9cb496162117"
-					(reference "R183")
+					(reference "R166")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/2f978675-bbdf-4eaf-b35d-808525022f03"
-					(reference "R83")
+					(reference "R90")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/3936bb27-8b8a-46a9-b080-3a79d9ab5741"
-					(reference "R85")
+					(reference "R128")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/abda6490-951e-4b79-8373-76689447ea38"
-					(reference "R146")
+					(reference "R52")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/aef0a07c-685c-45ab-b53b-cda5a5d0a078"
-					(reference "R84")
+					(reference "R71")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/b3b9e0cb-f494-4399-8e6c-552ef93f033b"
-					(reference "R184")
+					(reference "R147")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/d017f267-0333-432b-b5cf-47aef5c13297"
-					(reference "R168")
+					(reference "R109")
 					(unit 1)
 				)
 			)
@@ -9176,7 +9330,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ee4bf806-4180-4e5e-8bb3-654d0f849943")
-		(property "Reference" "R64"
+		(property "Reference" "R29"
 			(at 111.506 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9238,35 +9392,35 @@
 		(instances
 			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/022a79db-e54f-40f1-837e-3e9c2ae67292"
-					(reference "R64")
+					(reference "R29")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/21b47b88-cc1a-402a-a5e9-9cb496162117"
-					(reference "R340")
+					(reference "R162")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/2f978675-bbdf-4eaf-b35d-808525022f03"
-					(reference "R343")
+					(reference "R86")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/3936bb27-8b8a-46a9-b080-3a79d9ab5741"
-					(reference "R344")
+					(reference "R124")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/abda6490-951e-4b79-8373-76689447ea38"
-					(reference "R118")
+					(reference "R48")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/aef0a07c-685c-45ab-b53b-cda5a5d0a078"
-					(reference "R342")
+					(reference "R67")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/b3b9e0cb-f494-4399-8e6c-552ef93f033b"
-					(reference "R339")
+					(reference "R143")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/d017f267-0333-432b-b5cf-47aef5c13297"
-					(reference "R341")
+					(reference "R105")
 					(unit 1)
 				)
 			)
@@ -9283,7 +9437,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ef8b709e-418d-43a8-9830-913048bce2a2")
-		(property "Reference" "R55"
+		(property "Reference" "R41"
 			(at 59.436 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9345,35 +9499,35 @@
 		(instances
 			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/022a79db-e54f-40f1-837e-3e9c2ae67292"
-					(reference "R55")
+					(reference "R41")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/21b47b88-cc1a-402a-a5e9-9cb496162117"
-					(reference "R310")
+					(reference "R174")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/2f978675-bbdf-4eaf-b35d-808525022f03"
-					(reference "R192")
+					(reference "R98")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/3936bb27-8b8a-46a9-b080-3a79d9ab5741"
-					(reference "R309")
+					(reference "R136")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/abda6490-951e-4b79-8373-76689447ea38"
-					(reference "R108")
+					(reference "R60")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/aef0a07c-685c-45ab-b53b-cda5a5d0a078"
-					(reference "R191")
+					(reference "R79")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/b3b9e0cb-f494-4399-8e6c-552ef93f033b"
-					(reference "R311")
+					(reference "R155")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/d017f267-0333-432b-b5cf-47aef5c13297"
-					(reference "R308")
+					(reference "R117")
 					(unit 1)
 				)
 			)
@@ -9391,7 +9545,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0d45f23-21b5-4e4c-9bb7-c3bb19435c3e")
-		(property "Reference" "TP38"
+		(property "Reference" "TP23"
 			(at 232.918 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9463,35 +9617,35 @@
 		(instances
 			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/022a79db-e54f-40f1-837e-3e9c2ae67292"
-					(reference "TP38")
+					(reference "TP23")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/21b47b88-cc1a-402a-a5e9-9cb496162117"
-					(reference "TP95")
+					(reference "TP44")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/2f978675-bbdf-4eaf-b35d-808525022f03"
-					(reference "TP90")
+					(reference "TP32")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/3936bb27-8b8a-46a9-b080-3a79d9ab5741"
-					(reference "TP92")
+					(reference "TP38")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/abda6490-951e-4b79-8373-76689447ea38"
-					(reference "TP93")
+					(reference "TP26")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/aef0a07c-685c-45ab-b53b-cda5a5d0a078"
-					(reference "TP89")
+					(reference "TP29")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/b3b9e0cb-f494-4399-8e6c-552ef93f033b"
-					(reference "TP94")
+					(reference "TP41")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/d017f267-0333-432b-b5cf-47aef5c13297"
-					(reference "TP91")
+					(reference "TP35")
 					(unit 1)
 				)
 			)
@@ -9509,7 +9663,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4c65bb8-59b5-472a-9dc9-adf520642c32")
-		(property "Reference" "R56"
+		(property "Reference" "R43"
 			(at 79.756 119.888 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9583,35 +9737,35 @@
 		(instances
 			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/022a79db-e54f-40f1-837e-3e9c2ae67292"
-					(reference "R56")
+					(reference "R43")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/21b47b88-cc1a-402a-a5e9-9cb496162117"
-					(reference "R314")
+					(reference "R176")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/2f978675-bbdf-4eaf-b35d-808525022f03"
-					(reference "R209")
+					(reference "R100")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/3936bb27-8b8a-46a9-b080-3a79d9ab5741"
-					(reference "R312")
+					(reference "R138")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/abda6490-951e-4b79-8373-76689447ea38"
-					(reference "R109")
+					(reference "R62")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/aef0a07c-685c-45ab-b53b-cda5a5d0a078"
-					(reference "R208")
+					(reference "R81")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/b3b9e0cb-f494-4399-8e6c-552ef93f033b"
-					(reference "R315")
+					(reference "R157")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/d017f267-0333-432b-b5cf-47aef5c13297"
-					(reference "R313")
+					(reference "R119")
 					(unit 1)
 				)
 			)
@@ -9628,7 +9782,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f88334cc-c75a-45db-9758-5b779eec6fd2")
-		(property "Reference" "L6"
+		(property "Reference" "L2"
 			(at 97.79 99.314 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9702,35 +9856,35 @@
 		(instances
 			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/022a79db-e54f-40f1-837e-3e9c2ae67292"
-					(reference "L6")
+					(reference "L2")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/21b47b88-cc1a-402a-a5e9-9cb496162117"
-					(reference "L44")
+					(reference "L16")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/2f978675-bbdf-4eaf-b35d-808525022f03"
-					(reference "L42")
+					(reference "L8")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/3936bb27-8b8a-46a9-b080-3a79d9ab5741"
-					(reference "L40")
+					(reference "L12")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/abda6490-951e-4b79-8373-76689447ea38"
-					(reference "L38")
+					(reference "L4")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/aef0a07c-685c-45ab-b53b-cda5a5d0a078"
-					(reference "L41")
+					(reference "L6")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/b3b9e0cb-f494-4399-8e6c-552ef93f033b"
-					(reference "L43")
+					(reference "L14")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/d017f267-0333-432b-b5cf-47aef5c13297"
-					(reference "L39")
+					(reference "L10")
 					(unit 1)
 				)
 			)
@@ -9747,7 +9901,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f974e2a9-cb16-47c6-a67f-a44bed5d3a5f")
-		(property "Reference" "#PWR0140"
+		(property "Reference" "#PWR097"
 			(at 168.91 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -9807,35 +9961,35 @@
 		(instances
 			(project "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/022a79db-e54f-40f1-837e-3e9c2ae67292"
-					(reference "#PWR0140")
+					(reference "#PWR097")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/21b47b88-cc1a-402a-a5e9-9cb496162117"
-					(reference "#PWR0421")
+					(reference "#PWR0188")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/2f978675-bbdf-4eaf-b35d-808525022f03"
-					(reference "#PWR0422")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/3936bb27-8b8a-46a9-b080-3a79d9ab5741"
-					(reference "#PWR0420")
+					(reference "#PWR0162")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/abda6490-951e-4b79-8373-76689447ea38"
-					(reference "#PWR0154")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/aef0a07c-685c-45ab-b53b-cda5a5d0a078"
-					(reference "#PWR0424")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/b3b9e0cb-f494-4399-8e6c-552ef93f033b"
-					(reference "#PWR0425")
+					(reference "#PWR0175")
 					(unit 1)
 				)
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/d017f267-0333-432b-b5cf-47aef5c13297"
-					(reference "#PWR0423")
+					(reference "#PWR0149")
 					(unit 1)
 				)
 			)

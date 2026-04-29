@@ -592,7 +592,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -706,7 +706,7 @@
         "uuid": "4059b195-d7bb-4a1b-a7b6-e8bbfebcd311"
       }
     ],
-    "used_designators": "L3-6,L17-44,D2-3,D9-22,#PWR1-61,#PWR118-121,#PWR125-164,#PWR166,#PWR170-181,#PWR183-230,#PWR311-322,#PWR326-327,#PWR330-357,#PWR364-449,C1,C7,C13-27,C32-33,C39-40,C46-47,C53-54,C60-159,J1,J3-4,J10-23,R1-11,R14-15,R19,R29-32,R35-87,R89-90,R94,R104-121,R129-146,R154-171,R179-184,R189-192,R194-195,R204-398,U1,U8-11,U22-51,TP1-21,TP33-38,TP54-95",
+    "used_designators": "L1-44,D1-22,#PWR1-230,#PWR311-322,#PWR326-327,#PWR330-357,#PWR364-449,C1-159,J1-23,R1-195,R204-398,U1-20,U22-51,TP1-45,TP54-95,H1-6",
     "variants": [
       {
         "description": "CH0: VCC=5V, Diff, G=1\nCH1: VCC=5V, Diff, G=1\nCH2: VCC=5V, Diff, G=1\nCH3: VCC=5V, Diff, G=1\nCH4: VCC=5V, Diff, G=1\nCH5: VCC=5V, Diff, G=1\nCH6: VCC=5V, Diff, G=1\nCH7: VCC=5V, Diff, G=1",
