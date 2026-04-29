@@ -3978,7 +3978,7 @@
 		)
 		(uuid "8981c1f0-ccd6-47b4-bade-cd2cb6b013fa")
 	)
-	(text "acc.: 0.03% real / 0.2% w.c."
+	(text "acc.: 0.05% real / 0.25% w.c."
 		(exclude_from_sim no)
 		(at 214.63 192.786 0)
 		(effects
@@ -5619,16 +5619,6 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 182.88) (xy 321.31 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5dd933d2-bcf4-4daa-833d-95a2bd698d4c")
-	)
-	(wire
-		(pts
 			(xy 148.59 57.15) (xy 163.83 57.15)
 		)
 		(stroke
@@ -6009,6 +5999,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 158.75) (xy 187.96 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86fbb622-4fdd-4477-82ca-b5835b4c8805")
+	)
+	(wire
+		(pts
 			(xy 365.76 133.35) (xy 365.76 128.27)
 		)
 		(stroke
@@ -6046,6 +6046,16 @@
 			(type default)
 		)
 		(uuid "89235c87-6d39-4c6c-a35d-3cc6bdf6cc3a")
+	)
+	(wire
+		(pts
+			(xy 104.14 158.75) (xy 187.96 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89e68fbe-92d6-45d7-9376-dc9799528a27")
 	)
 	(wire
 		(pts
@@ -6376,16 +6386,6 @@
 			(type default)
 		)
 		(uuid "a2ed6ca0-f586-4981-921e-2f04d75a0315")
-	)
-	(wire
-		(pts
-			(xy 187.96 196.85) (xy 187.96 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a34b99d7-a132-4335-a088-6ff38386f2f4")
 	)
 	(wire
 		(pts
@@ -7668,7 +7668,7 @@
 		(uuid "ff9ccd98-e854-4cd8-9022-10a9599702b1")
 	)
 	(image
-		(at 139.446 164.846)
+		(at 270.256 268.986)
 		(scale 0.470616)
 		(uuid "d9475545-6f3d-4c10-ace9-b434d47813f0")
 		(data "iVBORw0KGgoAAAANSUhEUgAABPMAAAI7CAYAAACJC95NAAAABHNCSVQICAgIfAhkiAAAIABJREFU"
@@ -8914,7 +8914,7 @@
 		)
 		(uuid "59829d88-0114-4276-b04d-5b266bc528ef")
 	)
-	(label "PWR_SENSE{+12V 10V 5V -12V BATT}"
+	(label "PWR_SENSE{24V 16V5 12V 5V BATT}"
 		(at 381 199.39 90)
 		(effects
 			(font
@@ -8944,7 +8944,7 @@
 		)
 		(uuid "8569098d-1a13-44b1-b96a-b5941d1ada80")
 	)
-	(label "PWR_SENSE.5V"
+	(label "PWR_SENSE.12V"
 		(at 360.68 191.77 0)
 		(effects
 			(font
@@ -8974,7 +8974,7 @@
 		)
 		(uuid "86910715-1dd6-4e20-8ff1-5ab20816bf1e")
 	)
-	(label "PWR_SENSE.+12V"
+	(label "PWR_SENSE.24V"
 		(at 360.68 186.69 0)
 		(effects
 			(font
@@ -9054,7 +9054,7 @@
 		)
 		(uuid "b976925d-e290-4c2a-afcd-05c49ec3c4cf")
 	)
-	(label "PWR_SENSE.10V"
+	(label "PWR_SENSE.16V5"
 		(at 360.68 189.23 0)
 		(effects
 			(font
@@ -9074,7 +9074,7 @@
 		)
 		(uuid "d35fb511-54ef-4d52-b009-e884a4b546c4")
 	)
-	(label "PWR_SENSE.-12V"
+	(label "PWR_SENSE.5V"
 		(at 360.68 194.31 0)
 		(effects
 			(font
@@ -10890,8 +10890,8 @@
 				)
 			)
 		)
-		(property "Value" "-12V"
-			(at 309.626 194.31 90)
+		(property "Value" "5V"
+			(at 310.134 194.31 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14286,7 +14286,7 @@
 				)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "12V"
 			(at 310.134 191.77 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14780,7 +14780,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V"
+		(property "Value" "24V"
 			(at 309.626 186.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19298,83 +19298,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 187.96 196.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d28d5b42-d291-457f-b234-beab87c76c23")
-		(property "Reference" "#PWR046"
-			(at 187.96 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5Vref"
-			(at 187.96 193.294 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 187.96 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4ed77bdd-2f7f-4fa7-9db3-846f2508d693")
-		)
-		(instances
-			(project "DAQ_PCB_MainBoard_v1.0"
-				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/10176249-18d5-40a7-abbb-e6394fe2f254"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDA")
 		(at 130.81 265.43 0)
 		(unit 1)
@@ -20163,7 +20086,7 @@
 				)
 			)
 		)
-		(property "Value" "+10V"
+		(property "Value" "16V5"
 			(at 309.626 189.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20213,83 +20136,6 @@
 			(project "DAQ_PCB_MainBoard_v1.0"
 				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/10176249-18d5-40a7-abbb-e6394fe2f254"
 					(reference "#PWR076")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 314.96 182.88 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e18e17e3-5026-4506-b781-79a5825cc751")
-		(property "Reference" "#PWR074"
-			(at 318.77 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2V5ref"
-			(at 308.864 182.88 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 314.96 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 314.96 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 314.96 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2c92a0e3-7cab-4ea8-b91c-ed7c388fa617")
-		)
-		(instances
-			(project "DAQ_PCB_MainBoard_v1.0"
-				(path "/4059b195-d7bb-4a1b-a7b6-e8bbfebcd311/10176249-18d5-40a7-abbb-e6394fe2f254"
-					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -22272,16 +22118,6 @@
 				(justify left top)
 			)
 		)
-		(pin "2V5_REF" input
-			(at 321.31 182.88 180)
-			(uuid "a3d93adf-2052-4e62-b46a-9cbf46f875e7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "VCC" input
 			(at 321.31 180.34 180)
 			(uuid "11aa4890-2980-474c-a68c-2c1dbf72a44d")
@@ -22292,49 +22128,9 @@
 				(justify left)
 			)
 		)
-		(pin "+12V_PG" output
-			(at 351.79 186.69 0)
-			(uuid "cec2b2d0-84ac-4053-883c-dcb2c1c9af65")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "+12V_SEN" input
-			(at 321.31 186.69 180)
-			(uuid "ff4abeb2-7bb3-4868-aa4f-48dac5de65ac")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "-12V_PG" output
-			(at 351.79 194.31 0)
-			(uuid "cf9bed1a-15ed-4802-83ce-c43b5f63eb1f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "-12V_SEN" input
-			(at 321.31 194.31 180)
-			(uuid "5dfcfd66-77f7-45f4-9040-2d0a5c571647")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "5V_PG" output
-			(at 351.79 191.77 0)
-			(uuid "5bf9cdb3-51ba-4fbc-98b1-caafe14695df")
+			(at 351.79 194.31 0)
+			(uuid "c78a1297-08ae-4deb-86e4-fbe291e21d60")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22343,8 +22139,8 @@
 			)
 		)
 		(pin "5V_SEN" input
-			(at 321.31 191.77 180)
-			(uuid "9790bccd-8f91-4e87-a0b6-b1c173a6ed59")
+			(at 321.31 194.31 180)
+			(uuid "b6ac4f24-89e2-4330-a7a7-8d459288f9e4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22352,24 +22148,64 @@
 				(justify left)
 			)
 		)
-		(pin "10V_SEN" input
-			(at 321.31 189.23 180)
-			(uuid "d816a54b-e637-4868-abad-80d1324af21b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "10V_PG" output
-			(at 351.79 189.23 0)
-			(uuid "4b6aad31-3210-47b0-8b93-68e17b0684d7")
+		(pin "12V_PG" output
+			(at 351.79 191.77 0)
+			(uuid "c2d71312-d388-46db-8435-b70352199e39")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "12_SEN" input
+			(at 321.31 191.77 180)
+			(uuid "f49b4361-539a-46c9-8c38-b299e90fa7d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "16V5_PG" output
+			(at 351.79 189.23 0)
+			(uuid "6b7d586e-d519-4934-9874-2ff4ed17dd0f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "16V5_SEN" input
+			(at 321.31 189.23 180)
+			(uuid "b490fc9d-e3c7-4aee-b889-247c78f0e11f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "24V_PG" output
+			(at 351.79 186.69 0)
+			(uuid "d7c1f4ad-7da6-4403-a96c-82c65224ad7d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "24V_SEN" input
+			(at 321.31 186.69 180)
+			(uuid "192198d1-10d7-4290-873e-8c6fffb16ec9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
