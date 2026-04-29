@@ -611,6 +611,30 @@
         "SE50",
         "SPI"
       ],
+      "/Frontend/ADC_0": [
+        "AN"
+      ],
+      "/Frontend/ADC_1": [
+        "AN"
+      ],
+      "/Frontend/ADC_2": [
+        "AN"
+      ],
+      "/Frontend/ADC_3": [
+        "AN"
+      ],
+      "/Frontend/ADC_4": [
+        "AN"
+      ],
+      "/Frontend/ADC_5": [
+        "AN"
+      ],
+      "/Frontend/ADC_6": [
+        "AN"
+      ],
+      "/Frontend/ADC_7": [
+        "AN"
+      ],
       "/Frontend/PREAMP1/SEN_SGN_IN_CON+": [
         "AN_DIFF"
       ],
@@ -866,7 +890,7 @@
         "uuid": "4059b195-d7bb-4a1b-a7b6-e8bbfebcd311"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR12-23,#PWR129,#PWR131,#PWR134,#PWR138-141,#PWR148,#PWR151-154,#PWR156,#PWR158-161,#PWR163,#PWR166,#PWR170-173,#PWR180,#PWR349-350,#PWR352-357,#PWR364-387,C1,C7,C18,C63-65,C77-99,J1,R1-11,R14-15,R19,R29-32,R35-36,R39-40,R60,R69,R79-82,R85-86,R89-90,R94,R104-107,R110-111,R114-115,R211,R213-220,U1,U23-24,TP1-21",
     "variants": [
       {
         "description": "CH0: VCC=5V, Diff, G=1\nCH1: VCC=5V, Diff, G=1\nCH2: VCC=5V, Diff, G=1\nCH3: VCC=5V, Diff, G=1\nCH4: VCC=5V, Diff, G=1\nCH5: VCC=5V, Diff, G=1\nCH6: VCC=5V, Diff, G=1\nCH7: VCC=5V, Diff, G=1",
@@ -878,10 +902,6 @@
     [
       "4059b195-d7bb-4a1b-a7b6-e8bbfebcd311",
       "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
-    ],
-    [
-      "70e9c539-3d8a-4902-a048-5631c029b803",
-      "CONN"
     ],
     [
       "f23421bc-2db2-4c79-90cf-8bdcb698068a",
@@ -918,10 +938,6 @@
     [
       "1b9d85c3-1ab2-431c-9899-0e643a24065c",
       "PREAMP8"
-    ],
-    [
-      "baf7eb7b-2d48-42e0-9358-5f7013b6d863",
-      "ADC"
     ]
   ],
   "text_variables": {},
