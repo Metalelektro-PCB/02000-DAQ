@@ -571,191 +571,7 @@
       "version": 5
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "/ADC/ADC_0": [
-        "AN"
-      ],
-      "/ADC/ADC_1": [
-        "AN"
-      ],
-      "/ADC/ADC_2": [
-        "AN"
-      ],
-      "/ADC/ADC_3": [
-        "AN"
-      ],
-      "/ADC/ADC_4": [
-        "AN"
-      ],
-      "/ADC/ADC_5": [
-        "AN"
-      ],
-      "/ADC/ADC_6": [
-        "AN"
-      ],
-      "/ADC/ADC_7": [
-        "AN"
-      ],
-      "/ADC/ADC_SPI.CSn": [
-        "SPI"
-      ],
-      "/ADC/ADC_SPI.MISO": [
-        "SE50",
-        "SPI"
-      ],
-      "/ADC/ADC_SPI.MOSI": [
-        "SE50",
-        "SPI"
-      ],
-      "/ADC/ADC_SPI.SCK": [
-        "SE50",
-        "SPI"
-      ],
-      "/Frontend/ADC_0": [
-        "AN"
-      ],
-      "/Frontend/ADC_1": [
-        "AN"
-      ],
-      "/Frontend/ADC_2": [
-        "AN"
-      ],
-      "/Frontend/ADC_3": [
-        "AN"
-      ],
-      "/Frontend/ADC_4": [
-        "AN"
-      ],
-      "/Frontend/ADC_5": [
-        "AN"
-      ],
-      "/Frontend/ADC_6": [
-        "AN"
-      ],
-      "/Frontend/ADC_7": [
-        "AN"
-      ],
-      "/Frontend/PREAMP1/SEN_SGN_IN_CON+": [
-        "AN_DIFF"
-      ],
-      "/Frontend/PREAMP1/SEN_SGN_IN_CON-": [
-        "AN_DIFF"
-      ],
-      "/Frontend/PREAMP1/SGN_IN+": [
-        "AN_DIFF"
-      ],
-      "/Frontend/PREAMP1/SGN_IN-": [
-        "AN_DIFF"
-      ],
-      "/Frontend/PREAMP2/SEN_SGN_IN_CON+": [
-        "AN_DIFF"
-      ],
-      "/Frontend/PREAMP2/SEN_SGN_IN_CON-": [
-        "AN_DIFF"
-      ],
-      "/Frontend/PREAMP2/SGN_IN+": [
-        "AN_DIFF"
-      ],
-      "/Frontend/PREAMP2/SGN_IN-": [
-        "AN_DIFF"
-      ],
-      "/Frontend/PREAMP3/SEN_SGN_IN_CON+": [
-        "AN_DIFF"
-      ],
-      "/Frontend/PREAMP3/SEN_SGN_IN_CON-": [
-        "AN_DIFF"
-      ],
-      "/Frontend/PREAMP3/SGN_IN+": [
-        "AN_DIFF"
-      ],
-      "/Frontend/PREAMP3/SGN_IN-": [
-        "AN_DIFF"
-      ],
-      "/Frontend/PREAMP4/SEN_SGN_IN_CON+": [
-        "AN_DIFF"
-      ],
-      "/Frontend/PREAMP4/SEN_SGN_IN_CON-": [
-        "AN_DIFF"
-      ],
-      "/Frontend/PREAMP4/SGN_IN+": [
-        "AN_DIFF"
-      ],
-      "/Frontend/PREAMP4/SGN_IN-": [
-        "AN_DIFF"
-      ],
-      "/Frontend/PREAMP5/SEN_SGN_IN_CON+": [
-        "AN_DIFF"
-      ],
-      "/Frontend/PREAMP5/SEN_SGN_IN_CON-": [
-        "AN_DIFF"
-      ],
-      "/Frontend/PREAMP5/SGN_IN+": [
-        "AN_DIFF"
-      ],
-      "/Frontend/PREAMP5/SGN_IN-": [
-        "AN_DIFF"
-      ],
-      "/Frontend/PREAMP6/SEN_SGN_IN_CON+": [
-        "AN_DIFF"
-      ],
-      "/Frontend/PREAMP6/SEN_SGN_IN_CON-": [
-        "AN_DIFF"
-      ],
-      "/Frontend/PREAMP6/SGN_IN+": [
-        "AN_DIFF"
-      ],
-      "/Frontend/PREAMP6/SGN_IN-": [
-        "AN_DIFF"
-      ],
-      "/Frontend/PREAMP7/SEN_SGN_IN_CON+": [
-        "AN_DIFF"
-      ],
-      "/Frontend/PREAMP7/SEN_SGN_IN_CON-": [
-        "AN_DIFF"
-      ],
-      "/Frontend/PREAMP7/SGN_IN+": [
-        "AN_DIFF"
-      ],
-      "/Frontend/PREAMP7/SGN_IN-": [
-        "AN_DIFF"
-      ],
-      "/Frontend/PREAMP8/SEN_SGN_IN_CON+": [
-        "AN_DIFF"
-      ],
-      "/Frontend/PREAMP8/SEN_SGN_IN_CON-": [
-        "AN_DIFF"
-      ],
-      "/Frontend/PREAMP8/SGN_IN+": [
-        "AN_DIFF"
-      ],
-      "/Frontend/PREAMP8/SGN_IN-": [
-        "AN_DIFF"
-      ],
-      "/Frontend/SGN_0": [
-        "AN"
-      ],
-      "/Frontend/SGN_1": [
-        "AN"
-      ],
-      "/Frontend/SGN_2": [
-        "AN"
-      ],
-      "/Frontend/SGN_3": [
-        "AN"
-      ],
-      "/Frontend/SGN_4": [
-        "AN"
-      ],
-      "/Frontend/SGN_5": [
-        "AN"
-      ],
-      "/Frontend/SGN_6": [
-        "AN"
-      ],
-      "/Frontend/SGN_7": [
-        "AN"
-      ]
-    },
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -890,7 +706,7 @@
         "uuid": "4059b195-d7bb-4a1b-a7b6-e8bbfebcd311"
       }
     ],
-    "used_designators": "#PWR12-23,#PWR129,#PWR131,#PWR134,#PWR138-141,#PWR148,#PWR151-154,#PWR156,#PWR158-161,#PWR163,#PWR166,#PWR170-173,#PWR180,#PWR349-350,#PWR352-357,#PWR364-387,C1,C7,C18,C63-65,C77-99,J1,R1-11,R14-15,R19,R29-32,R35-36,R39-40,R60,R69,R79-82,R85-86,R89-90,R94,R104-107,R110-111,R114-115,R211,R213-220,U1,U23-24,TP1-21",
+    "used_designators": "L3-6,L17-44,D2-3,D9-22,#PWR1-61,#PWR118-121,#PWR125-164,#PWR166,#PWR170-181,#PWR183-230,#PWR311-322,#PWR326-327,#PWR330-357,#PWR364-449,C1,C7,C13-27,C32-33,C39-40,C46-47,C53-54,C60-159,J1,J3-4,J10-23,R1-11,R14-15,R19,R29-32,R35-87,R89-90,R94,R104-121,R129-146,R154-171,R179-184,R189-192,R194-195,R204-398,U1,U8-11,U22-51,TP1-21,TP33-38,TP54-95",
     "variants": [
       {
         "description": "CH0: VCC=5V, Diff, G=1\nCH1: VCC=5V, Diff, G=1\nCH2: VCC=5V, Diff, G=1\nCH3: VCC=5V, Diff, G=1\nCH4: VCC=5V, Diff, G=1\nCH5: VCC=5V, Diff, G=1\nCH6: VCC=5V, Diff, G=1\nCH7: VCC=5V, Diff, G=1",
@@ -904,39 +720,35 @@
       "DAQ_PCB_Frontend_Universal_SAR_ADC_v1.0"
     ],
     [
-      "f23421bc-2db2-4c79-90cf-8bdcb698068a",
-      "PREAMP2"
-    ],
-    [
-      "21e535ac-66c1-4582-8c59-1eeaafcd1fe0",
-      "Frontend"
-    ],
-    [
-      "215ac269-bdd1-4326-a826-1c3acd7d7133",
+      "022a79db-e54f-40f1-837e-3e9c2ae67292",
       "PREAMP1"
     ],
     [
-      "e0a10b3f-9f2a-46b5-a1eb-da2a76a3ca2f",
+      "abda6490-951e-4b79-8373-76689447ea38",
+      "PREAMP2"
+    ],
+    [
+      "aef0a07c-685c-45ab-b53b-cda5a5d0a078",
       "PREAMP3"
     ],
     [
-      "90e7fc5e-c147-42c2-96b7-2ff2eabbf973",
+      "2f978675-bbdf-4eaf-b35d-808525022f03",
       "PREAMP4"
     ],
     [
-      "3caf5723-873f-42f5-a091-31ba96e31639",
+      "d017f267-0333-432b-b5cf-47aef5c13297",
       "PREAMP5"
     ],
     [
-      "033658e7-1c36-4f48-93ea-b10967d7a907",
+      "3936bb27-8b8a-46a9-b080-3a79d9ab5741",
       "PREAMP6"
     ],
     [
-      "075d74c8-753c-40a4-8629-94c50a184306",
+      "b3b9e0cb-f494-4399-8e6c-552ef93f033b",
       "PREAMP7"
     ],
     [
-      "1b9d85c3-1ab2-431c-9899-0e643a24065c",
+      "21b47b88-cc1a-402a-a5e9-9cb496162117",
       "PREAMP8"
     ]
   ],
